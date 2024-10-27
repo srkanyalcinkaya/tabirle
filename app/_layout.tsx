@@ -29,8 +29,10 @@ export default function RootLayout() {
     <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
       <Stack screenOptions={{ headerShown: false }}>
         <Stack.Screen name="(tabs)" />
-        <Stack.Screen name="index" />
         <Stack.Screen name="(auth)" />
+        <Stack.Screen name="index" />
+        <Stack.Screen name="interpretation/[id]" />
+        <Stack.Screen name="horoscope/[id]" />
       </Stack>
     </ThemeProvider>
   );
