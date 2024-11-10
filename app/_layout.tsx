@@ -8,6 +8,10 @@ import "./global.css";
 import { useColorScheme } from '@/hooks/useColorScheme';
 import { View } from 'react-native';
 
+export const unstable_settings = {
+  initialRouteName: "/(auth)/login",
+};
+
 // Prevent the splash screen from auto-hiding before asset loading is complete.
 SplashScreen.preventAutoHideAsync();
 
@@ -35,15 +39,16 @@ export default function RootLayout() {
   if (!loaded && !error) {
     return null;
   }
+
   return (
     <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
 
-      <Stack screenOptions={{ headerShown: false }}>
-        <Stack.Screen name="(tabs)" />
-        <Stack.Screen name="(auth)" />
-        <Stack.Screen name="index" />
-        <Stack.Screen name="interpretation/[id]" />
-        <Stack.Screen name="horoscope/[id]" />
+      <Stack>
+        <Stack.Screen name="index" options={{ headerShown: false }} />
+        <Stack.Screen name="(auth)" options={{ headerShown: false }} />
+        <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+        <Stack.Screen name="interpretation/[id]" options={{ headerShown: false }} />
+        <Stack.Screen name="horoscope/[id]"options={{ headerShown: false }}  />
       </Stack>
 
     </ThemeProvider>

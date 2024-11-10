@@ -7,7 +7,7 @@ module.exports = {
     extend: {
       fontFamily: {
         aregular: ["ArefRuqaa-Regular", "sans-serif"],
-        pregular: ["Poppins-Regular", "sans-serif"],
+        pregular: ["Pacifico-Regular", "sans-serif"],
         abold: ["ArefRuqaa-Bold", "sans-serif"],
       },
     },
