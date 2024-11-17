@@ -67,6 +67,7 @@ import data, { OnboardingData } from '@/data/data';
 import Pagination from '@/components/Pagination';
 import CustomButton from '@/components/CustomButton';
 import RenderItem from '@/components/RenderItem';
+import { StatusBar } from 'expo-status-bar';
 
 
 export default function Onboarding() {
@@ -122,6 +123,7 @@ export default function Onboarding() {
                     x={x}
                 />
             </View>
+            <StatusBar style="light" />
         </View>
     )
 }

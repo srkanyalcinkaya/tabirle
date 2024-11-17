@@ -356,7 +356,7 @@ export default function Welcome() {
                     )}
                 </View>
             </SafeAreaView>
-            <StatusBar backgroundColor="#161622" style="light" />
+            {/* <StatusBar backgroundColor="#161622" style="light" /> */}
         </View>
     )
 }   

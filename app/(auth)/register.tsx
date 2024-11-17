@@ -27,14 +27,14 @@ export default function Register() {
             <SafeAreaView className="absolute z-10 flex-1  w-full px-5 py-20 flex-col justify-center">
 
 
-                <View className="flex-col items-center justify-center ">
+                <View className="flex-col items-center justify-center gap-y-5 ">
                     <Animated.Image entering={FadeInUp.delay(200).duration(1000).springify()} source={require("@/assets/images/logo.png")} className="h-20 w-20  object-cover" />
-                    <Animated.Text entering={FadeInUp.delay(200).duration(1000).springify()} className="text-4xl font-pregular text-white  pt-5">
+                    <Animated.Text entering={FadeInUp.delay(200).duration(1000).springify()} className="text-4xl font-pregular text-white pt-3  ">
                         Tabirle
                     </Animated.Text>
                 </View>
-                <View className="flex">
-                    <Animated.View entering={FadeInDown.duration(1000).springify()} className=" h-16 bg-[#FDC11C] rounded-2xl p-4 font-aregular text-[#A82A00] text-xl mt-5">
+                <View className="flex-col gap-y-10 mt-5">
+                    <Animated.View entering={FadeInDown.duration(1000).springify()} className=" h-16 bg-[#FDC11C] rounded-2xl p-4 font-aregular text-[#A82A00] text-xl ">
                         <TextInput
                             onChangeText={(value) => setForm({ ...form, ["email"]: value })}
                             value={form["email"] || ''}
@@ -45,7 +45,7 @@ export default function Register() {
 
                     </Animated.View>
 
-                    <Animated.View entering={FadeInDown.delay(200).duration(1000).springify()} className="relative h-16 bg-[#FDC11C] rounded-2xl p-4 font-aregular text-[#A82A00] text-xl mt-5">
+                    <Animated.View entering={FadeInDown.delay(200).duration(1000).springify()} className="relative h-16 bg-[#FDC11C] rounded-2xl p-4 font-aregular text-[#A82A00] text-xl ">
                         <TextInput
                             onChangeText={(value) => setForm({ ...form, ["password"]: value })}
                             value={form["password"] || ''}
@@ -63,7 +63,7 @@ export default function Register() {
                         </TouchableOpacity>
                     </Animated.View>
 
-                    <Animated.View entering={FadeInDown.delay(200).duration(1000).springify()} className="relative h-16 bg-[#FDC11C] rounded-2xl p-4 font-aregular text-[#A82A00] text-xl mt-5">
+                    <Animated.View entering={FadeInDown.delay(200).duration(1000).springify()} className="relative h-16 bg-[#FDC11C] rounded-2xl p-4 font-aregular text-[#A82A00] text-xl ">
                         <TextInput
                             onChangeText={(value) => setForm({ ...form, ["confirmPassword"]: value })}
                             value={form["confirmPassword"] || ''}
@@ -82,7 +82,7 @@ export default function Register() {
                     </Animated.View>
 
                     <Animated.View entering={FadeInDown.delay(400).duration(1000).springify()}>
-                        <TouchableOpacity onPress={() => handleSingUp()} className={`bg-[#FDC11C] p-6 rounded-2xl w-full mt-12`}>
+                        <TouchableOpacity onPress={() => handleSingUp()} className={`bg-[#FDC11C] p-4 rounded-2xl w-full `}>
                             <Text className="text-white text-2xl font-aregular text-center">SingUp</Text>
                         </TouchableOpacity>
                     </Animated.View>
@@ -97,7 +97,6 @@ export default function Register() {
 
                 </View>
             </SafeAreaView>
-            <StatusBar backgroundColor="#161622" style="light" />
         </View>
     )
 }

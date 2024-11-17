@@ -1,16 +1,16 @@
-
 import { icons } from "@/constants/icons";
 import { Tabs } from "expo-router";
-import { Image, Text, View } from "react-native";
+import { Image, Text, View, Platform } from "react-native";
 
-const TabIcon: React.FC<{ color: string; name: string; focused: boolean, icon: any }> = ({ color, name, focused, icon }) => {
+const TabIcon: React.FC<{ color: string; name: string; focused: boolean; icon: keyof typeof icons }> = ({ color, name, focused, icon }) => {
     return (
-        <View className="flex items-center justify-center pt-4 gap-2">
-            <Image
+        <View className={`flex items-center justify-center ${Platform.OS === "ios" ? "pt-4" : "pt-0"}  `}>
+            {/* <Image
                 source={icon}
                 resizeMode="contain"
-                className={`w-9 h-9`}
-            />
+                className={`${focused ? "w-11 h-11" : "w-9 h-9"} `}
+            /> */}
+            {icons[icon]}
             {/* <Text
                 className={`${focused ? "text-sm " : "text-xs"}  font-aregular `}
                 style={{ color: color }}
@@ -30,15 +30,26 @@ export default function TabsLayout() {
                 tabBarInactiveTintColor: "#C8C8C8",
                 tabBarStyle: {
                     backgroundColor: "#C43100",
-                    height: 84,
+                    height: 80,
+                    borderTopLeftRadius: 20,
+                    borderTopRightRadius: 20,
+                    position: "absolute",
+                    borderTopWidth: 0,
+                    display: "flex",
+                    alignContent: "center",
+                    justifyContent: "center",
+                    alignItems: "center"
+
                 },
-            }}>
+            }}
+        >
             <Tabs.Screen
                 name="home"
                 options={{
                     title: 'Home',
                     tabBarIcon: ({ color, focused }) => (
-                        <TabIcon icon={focused ? icons.home : icons["home-outline"]} color={color} focused={focused} name="Home" />
+                        // <TabIcon icon={focused ? icons.home : icons["home-outline"]} color={color} focused={focused} name="Home" />
+                        <TabIcon icon={focused ? "home" : "home-outline"} color={color} focused={focused} name="Home" />
                     ),
                 }}
             />
@@ -47,7 +58,7 @@ export default function TabsLayout() {
                 options={{
                     title: 'Astrology',
                     tabBarIcon: ({ color, focused }) => (
-                        <TabIcon icon={focused ? icons.compatibility : icons["compatibility-outline"]} color={color} focused={focused} name="Astrology" />
+                        <TabIcon icon={focused ? "compatibility" : "compatibility-outline"} color={color} focused={focused} name="Astrology" />
                     ),
                 }}
             />
@@ -56,7 +67,7 @@ export default function TabsLayout() {
                 options={{
                     title: 'Interpretation',
                     tabBarIcon: ({ color, focused }) => (
-                        <TabIcon icon={icons.tabirle} color={color} focused={focused} name="Interpretation" />
+                        <TabIcon icon={"tabirle"} color={color} focused={focused} name="Interpretation" />
                     ),
                 }}
             />
@@ -65,7 +76,7 @@ export default function TabsLayout() {
                 options={{
                     title: 'Tarot',
                     tabBarIcon: ({ color, focused }) => (
-                        <TabIcon icon={focused ? icons.tarot : icons["tarot-outline"]} color={color} focused={focused} name="Tarot Card" />
+                        <TabIcon icon={focused ? "tarot" : "tarot-outline"} color={color} focused={focused} name="Tarot Card" />
                     ),
                 }}
             />
@@ -74,7 +85,7 @@ export default function TabsLayout() {
                 options={{
                     title: 'Settings',
                     tabBarIcon: ({ color, focused }) => (
-                        <TabIcon icon={focused ? icons.user : icons["user-outline"]} color={color} focused={focused} name="Home" />
+                        <TabIcon icon={focused ? "user" : "user-outline"} color={color} focused={focused} name="Home" />
                     ),
                 }}
 

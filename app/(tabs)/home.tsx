@@ -1,3 +1,4 @@
+import { StatusBar } from "expo-status-bar";
 import { Image, Text, TouchableOpacity, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
@@ -19,7 +20,7 @@ export default function Home() {
 
 
     return (
-        <View className="flex-1 bg-[#A82A00] items-center relative  pb-5">
+        <View className="flex-1 bg-[#A82A00] items-center relative  ">
             <Image source={require("@/assets/images/dec-2.png")} className="object-cover absolute z-[1]" />
             <Image source={require("@/assets/images/dec-1.png")} className="object-cover absolute z-[2]" />
             <Image source={require("@/assets/images/stars.png")} className="object-center absolute z-[3]" />
@@ -90,11 +91,12 @@ export default function Home() {
                             </View>
                         </View>
                     </View>
-                    <TouchableOpacity onPress={()=>{console.log("More Details Page")}} className={`bg-[#DAA520] p-4 rounded-2xl w-full mt-10 `}>
+                    <TouchableOpacity onPress={() => { console.log("More Details Page") }} className={`bg-[#DAA520] p-4 rounded-2xl w-full mt-10 `}>
                         <Text className="text-[#8C2F00] text-xl font-aregular text-center  ">More Details</Text>
                     </TouchableOpacity>
                 </View>
             </SafeAreaView>
+            <StatusBar style="light" />
         </View>
     )
 }

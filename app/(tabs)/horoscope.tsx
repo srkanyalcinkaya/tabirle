@@ -4,8 +4,8 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import Animated, { useSharedValue, useAnimatedStyle, withSpring, SharedValue } from 'react-native-reanimated';
 import { PanGestureHandler, GestureHandlerGestureEvent } from 'react-native-gesture-handler';
 import AntDesign from '@expo/vector-icons/AntDesign';
-import Svg, { Path, Defs, LinearGradient, Stop } from "react-native-svg";
 import CompatibilityIcon from '@/components/icons';
+import { StatusBar } from 'expo-status-bar';
 
 const zodiacSigns = [
   { name: 'Aries', date: 'Mar 21 - Apr 19', image: require('@/assets/images/horoscope/horoscope-5.png') },
@@ -216,6 +216,7 @@ export default function Index() {
           <Text className="text-[#8C2F00] text-xl font-aregular text-center  ">Check Compatibility</Text>
         </TouchableOpacity>
       </SafeAreaView >
+      <StatusBar style="light" />
     </View >
   )
 }

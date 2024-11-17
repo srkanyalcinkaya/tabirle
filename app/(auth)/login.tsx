@@ -32,8 +32,8 @@ export default function Login() {
                         Tabirle
                     </Animated.Text>
                 </View>
-                <View className="flex">
-                    <Animated.View entering={FadeInDown.duration(1000).springify()} className=" h-16 bg-[#FDC11C] rounded-2xl p-4 font-aregular text-[#A82A00] text-xl mt-5">
+                <View className="flex mt-5">
+                    <Animated.View entering={FadeInDown.duration(1000).springify()} className=" h-16 bg-[#FDC11C] rounded-2xl p-4 font-aregular text-[#A82A00] text-xl ">
                         <TextInput
                             onChangeText={(value) => setForm({ ...form, ["email"]: value })}
                             value={form["email"] || ''}
@@ -62,7 +62,7 @@ export default function Login() {
                         </TouchableOpacity>
                     </Animated.View>
                     <Animated.View entering={FadeInDown.delay(400).duration(1000).springify()}>
-                        <TouchableOpacity onPress={() => handleLogin()} className={`bg-[#FDC11C] p-6 rounded-2xl w-full mt-12`}>
+                        <TouchableOpacity onPress={() => handleLogin()} className={`bg-[#FDC11C] p-4 rounded-2xl w-full mt-12`}>
                             <Text className="text-white text-2xl font-aregular text-center">Login</Text>
                         </TouchableOpacity>
                     </Animated.View>
@@ -77,7 +77,7 @@ export default function Login() {
 
                 </View>
             </SafeAreaView>
-            <StatusBar backgroundColor="#161622" style="light" />
+            {/* <StatusBar backgroundColor="#161622" style="light" /> */}
         </View>
     )
 }

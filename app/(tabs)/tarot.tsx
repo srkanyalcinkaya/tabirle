@@ -1,3 +1,4 @@
+import { StatusBar } from "expo-status-bar";
 import { Image, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
@@ -12,6 +13,7 @@ export default function Tarot() {
                     Home
                 </Text>
             </SafeAreaView>
+            <StatusBar style="light" />
         </View>
     )
 }
