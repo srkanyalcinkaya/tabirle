@@ -1,0 +1,47 @@
+<View className="items-center mb-10">
+          <Text className="text-white text-lg font-bold mb-4">Compatibility</Text>
+          <View className="flex-row items-center">
+            <TouchableOpacity onPress={() => setSelectedSign1((prev) => (prev - 1 + zodiacSigns.length) % zodiacSigns.length)}>
+              {/* <ChevronLeftIcon size={24} color="#fff" /> */}
+        <Text>Left</Text>
+      </TouchableOpacity>
+      <View className="mx-4 items-center">
+        <Image source={zodiacSigns[selectedSign1].image} className="w-24 h-24 rounded-full" />
+        <Text className="text-white font-bold mt-4">{zodiacSigns[selectedSign1].name}</Text>
+        <Text className="text-gray-400">{zodiacSigns[selectedSign1].date}</Text>
+      </View>
+      <TouchableOpacity onPress={() => setSelectedSign1((prev) => (prev + 1) % zodiacSigns.length)}>
+        {/* <ChevronRightIcon size={24} color="#fff" /> */}
+        <Text>Rigth</Text>
+      </TouchableOpacity>
+    </View>
+        </View >
+
+    {/* Kalp İkonu */ }
+    <View View View className = "mb-10" >
+      <Text className="text-pink-400 text-2xl">❤️</Text>
+        </View >
+
+    {/* Burç 2 */ }
+    <View View View className = "items-center mb-10" >
+      <View className="flex-row items-center">
+        <TouchableOpacity onPress={() => setSelectedSign2((prev) => (prev - 1 + zodiacSigns.length) % zodiacSigns.length)}>
+          {/* <ChevronLeftIcon size={24} color="#fff" /> */}
+          <Text>Left</Text>
+        </TouchableOpacity>
+        <View className="mx-4 items-center">
+          <Image source={zodiacSigns[selectedSign2].image} className="w-24 h-24 rounded-full" />
+          <Text className="text-white font-bold mt-4">{zodiacSigns[selectedSign2].name}</Text>
+          <Text className="text-gray-400">{zodiacSigns[selectedSign2].date}</Text>
+        </View>
+        <TouchableOpacity onPress={() => setSelectedSign2((prev) => (prev + 1) % zodiacSigns.length)}>
+          {/* <ChevronRightIcon size={24} color="#fff" /> */}
+          <Text>Right</Text>
+        </TouchableOpacity>
+      </View>
+        </View >
+
+    {/* Uyumluluğu Kontrol Et Butonu */ }
+    <TouchableOpacity TouchableOpacity TouchableOpacity onPress = { handleCheckCompatibility } className = "bg-blue-600 py-3 px-6 rounded-full mt-10" >
+      <Text className="text-white font-bold">Check Compatibility</Text>
+        </TouchableOpacity > 

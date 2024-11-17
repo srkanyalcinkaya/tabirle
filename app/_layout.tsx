@@ -7,6 +7,7 @@ import 'react-native-reanimated';
 import "./global.css";
 import { useColorScheme } from '@/hooks/useColorScheme';
 import { View } from 'react-native';
+import { GestureHandlerRootView } from 'react-native-gesture-handler';
 
 export const unstable_settings = {
   initialRouteName: "/(auth)/login",
@@ -42,15 +43,17 @@ export default function RootLayout() {
 
   return (
     <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
+      <GestureHandlerRootView style={{ flex: 1 }}>
 
-      <Stack>
-        <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-        <Stack.Screen name="index" options={{ headerShown: false }} />
-        <Stack.Screen name="(auth)" options={{ headerShown: false }} />
-        <Stack.Screen name="interpretation/[id]" options={{ headerShown: false }} />
-        <Stack.Screen name="horoscope/[id]"options={{ headerShown: false }}  />
-      </Stack>
+        <Stack>
+          <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+          <Stack.Screen name="index" options={{ headerShown: false }} />
+          <Stack.Screen name="(auth)" options={{ headerShown: false }} />
+          <Stack.Screen name="interpretation/[id]" options={{ headerShown: false }} />
+          <Stack.Screen name="horoscope/[id]" options={{ headerShown: false }} />
+        </Stack>
 
+      </GestureHandlerRootView>
     </ThemeProvider>
   );
 }
