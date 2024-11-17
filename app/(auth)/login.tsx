@@ -37,7 +37,7 @@ export default function Login() {
                         <TextInput
                             onChangeText={(value) => setForm({ ...form, ["email"]: value })}
                             value={form["email"] || ''}
-                            placeholder="Enter your name"
+                            placeholder="Enter your email"
                             placeholderTextColor={"#A82A00"}
                             className="h-full w-80 font-aregular text-[#A82A00] text-xl"
                         />

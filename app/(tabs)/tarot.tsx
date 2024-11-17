@@ -1,7 +1,7 @@
 import { Image, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
-export default function Index() {
+export default function Tarot() {
     return (
         <View className="flex-1 bg-[#A82A00] items-center relative  pb-5">
             <Image source={require("@/assets/images/dec-2.png")} className="object-cover absolute z-[1]" />

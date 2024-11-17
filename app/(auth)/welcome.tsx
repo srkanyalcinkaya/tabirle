@@ -4,6 +4,7 @@ import { Text, View, Image, TouchableOpacity, TextInput } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { StatusBar } from "expo-status-bar";
 import DateTimePicker from '@react-native-community/datetimepicker';
+import { router } from "expo-router";
 
 
 export default function Welcome() {
@@ -127,6 +128,7 @@ export default function Welcome() {
 
     const handleSumbit = () => {
         console.log(form)
+        router.push("/(tabs)/home")
     }
 
 
