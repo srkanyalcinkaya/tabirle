@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { View, Text, Image, TouchableOpacity } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import Animated, { useSharedValue, useAnimatedStyle, withSpring, SharedValue } from 'react-native-reanimated';
-import { PanGestureHandler, GestureHandlerGestureEvent } from 'react-native-gesture-handler';
+import { PanGestureHandler, GestureHandlerGestureEvent, ScrollView } from 'react-native-gesture-handler';
 import AntDesign from '@expo/vector-icons/AntDesign';
 import CompatibilityIcon from '@/components/icons';
 import { StatusBar } from 'expo-status-bar';
@@ -112,7 +112,9 @@ export default function Index() {
   }, [show]);
 
   return (
-    <View className="flex-1 bg-[#A82A00] items-center relative  pb-5">
+    <ScrollView
+      contentContainerStyle={{ flex: 1, backgroundColor: '#A82A00', alignItems: 'center', position: 'relative', paddingBottom: 5 }}
+    >
       <Image source={require("@/assets/images/dec-2.png")} className="object-cover absolute z-[1]" />
       <Image source={require("@/assets/images/dec-1.png")} className="object-cover absolute z-[2]" />
       <Image source={require("@/assets/images/stars.png")} className="object-center absolute z-[3]" />
@@ -142,20 +144,20 @@ export default function Index() {
                 {/* Sol Burç */}
                 <Image
                   source={zodiacSigns[getZodiacIndex(-1)].image}
-                  className="w-20 h-20 rounded-full opacity-50 absolute top-0 left-7"
+                  className="w-16 h-16 rounded-full opacity-50 absolute top-0 left-7"
                 />
 
                 {/* Seçili Burç */}
                 <Image
                   source={zodiacSigns[selectedSign1].image}
-                  className="w-32 h-32 rounded-full mx-5"
+                  className="w-28 h-28 rounded-full mx-5"
                 />
 
                 {/* Sağ Burç */}
-                  <Image
-                    source={zodiacSigns[getZodiacIndex(1)].image}
-                    className="w-20 h-20 rounded-full opacity-50 absolute top-0 right-7 "
-                  />
+                <Image
+                  source={zodiacSigns[getZodiacIndex(1)].image}
+                  className="w-16 h-16 rounded-full opacity-50 absolute top-0 right-7 "
+                />
               </View>
             </Animated.View>
           </PanGestureHandler>
@@ -165,7 +167,7 @@ export default function Index() {
         <View className='my-10 h-[50px] items-center justify-center '>
           {/* <Image className="w-20 h-20" source={require("@/assets/images/compatibility.svg")} /> */}
           {show ?
-            <Text className='text-white font-abold text-4xl'>
+            <Text className='text-white font-abold text-xl'>
               {compatibilityReuslt}
             </Text> :
             <CompatibilityIcon />
@@ -184,7 +186,7 @@ export default function Index() {
                 {/* Seçili Burç */}
                 <Image
                   source={zodiacSigns[selectedSign2].image}
-                  className="w-32 h-32 rounded-full mx-5"
+                  className="w-28 h-28 rounded-full mx-5"
                 />
 
                 {/* Sağ Burç */}
@@ -196,7 +198,7 @@ export default function Index() {
             </Animated.View>
           </PanGestureHandler>
 
-          <View className='flex-row items-center w-[260px] justify-between my-11 h-14'>
+          <View className='flex-row items-center w-[260px] justify-between mt-11 h-14'>
             <TouchableOpacity onPress={() => { setSelectedSign2((prev) => (prev - 1 + zodiacSigns.length) % zodiacSigns.length) }} >
               <AntDesign name="left" size={24} color="white" />
             </TouchableOpacity>
@@ -217,6 +219,6 @@ export default function Index() {
         </TouchableOpacity>
       </SafeAreaView >
       <StatusBar style="light" />
-    </View >
+    </ScrollView >
   )
 }
