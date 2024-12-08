@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View, useWindowDimensions } from 'react-native';
+import { Image, StyleSheet, Text, View, useWindowDimensions } from 'react-native';
 import React from 'react';
 import Animated, {
     Extrapolation,
@@ -16,7 +16,7 @@ type Props = {
 };
 
 const RenderItem = ({ index, x, item }: Props) => {
-    const { width: SCREEN_WIDTH } = useWindowDimensions();
+    const { width: SCREEN_WIDTH, height: SCREEN_HEIGHT } = useWindowDimensions();
 
     const lottieAnimationStyle = useAnimatedStyle(() => {
         const translateYAnimation = interpolate(
@@ -65,7 +65,12 @@ const RenderItem = ({ index, x, item }: Props) => {
                         },
                         circleAnimation,
                     ]}
-                />
+                >
+                    <Image source={require("@/assets/images/dec-2.png")}  className="w-full h-full absolute z-[9999]" />
+                    {/* <Image source={require("@/assets/images/dec-1.png")}  classNˆame="w-full h-full absolute z-[9999]" /> */}
+                    <Image source={require("@/assets/images/stars.png")}  className="w-full h-full absolute z-[9999]" />
+
+                </Animated.View>
             </View>
             <Animated.View style={lottieAnimationStyle}>
                 <LottieView
@@ -78,9 +83,17 @@ const RenderItem = ({ index, x, item }: Props) => {
                     loop
                 />
             </Animated.View>
-            <Text style={[styles.itemText, { color: item.textColor }]}>
-                {item.text}
-            </Text>
+            <View className='flex-col items-center gap-y-4'>
+                <Text style={[styles.itemText, { color: item.textColor }]}
+                    className='font-abold '>
+                    {item.text}
+                </Text>
+                <Text style={[{ color: item.textColor }]}
+                    className='text-lg px-6 text-center font-aregular   '
+                >
+                    {item.description}
+                </Text>
+            </View>
         </View>
     );
 };
@@ -90,16 +103,16 @@ export default RenderItem;
 const styles = StyleSheet.create({
     itemContainer: {
         flex: 1,
-        justifyContent: 'space-around',
+        justifyContent: "center",
         alignItems: 'center',
         marginBottom: 120,
+        position: "relative"
     },
     itemText: {
         textAlign: 'center',
-        fontSize: 44,
-        fontWeight: 'bold',
-        marginBottom: 10,
-        marginHorizontal: 20,
+        fontSize: 32,
+        marginHorizontal: 16,
+        fontFamily: "ArefRuqaa-Bold",
     },
     circleContainer: {
         ...StyleSheet.absoluteFillObject,

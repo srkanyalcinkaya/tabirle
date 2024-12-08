@@ -1,0 +1,192 @@
+{
+    "language": "Language",
+    "astrology": "Astrology",
+    "loading": "Loading...",
+    "home": {
+        "title": "Home",
+        "hello": "Hello",
+        "ruling_planet": "Ruling Planet",
+        "lucky_number": "Lucky Number",
+        "opposite_sign": "Opposite Sign",
+        "element": "Element",
+        "lucky_day": "Lucky Day",
+        "lucky_stone": "Lucky Stone",
+        "more_details": "More Details",
+        "settings": "Settings",
+        "planet": "Planet",
+        "talent": "Talent",
+        "what_makes_you_unique": "What Makes You Unique",
+        "goals": "Goals",
+        "lucky_numbers": "Lucky Numbers",
+        "favorite_flowers": "Favorite Flowers",
+        "health_risks": "Health Risks",
+        "compatible_signs": "Compatible Signs"
+    },
+    "settings": {
+        "title": "Settings",
+        "dark-appearance": "Dark Appearance",
+        "light-appearance": "Light Appearance",
+        "subscriptions": "Subscriptions",
+        "free_plan": "Free Plan",
+        "change_language": "Change Language",
+        "rate_us": "Rate Us",
+        "contact_us": "Contact Us",
+        "follow_us": "Follow Us",
+        "logout": "Logout",
+        "language": "Language",
+        "dark_mode": "Dark Mode",
+        "current_plan": "Current Plan",
+        "change_language_button": "Change Language",
+        "mail_subject": "Support Request",
+        "mail_body": "Please add a description of the issue you would like us to assist you with.",
+        "contact_us_mail": "Click here to email us"
+    },
+    "months": {
+        "january": "January",
+        "february": "February",
+        "march": "March",
+        "april": "April",
+        "may": "May",
+        "june": "June",
+        "july": "July",
+        "august": "August",
+        "september": "September",
+        "october": "October",
+        "november": "November",
+        "december": "December"
+    },
+    "days": {
+        "monday": "Monday",
+        "tuesday": "Tuesday",
+        "wednesday": "Wednesday",
+        "thursday": "Thursday",
+        "friday": "Friday",
+        "saturday": "Saturday",
+        "sunday": "Sunday"
+    },
+    "planets": {
+        "mercury": "Mercury",
+        "venus": "Venus",
+        "earth": "Earth",
+        "mars": "Mars",
+        "jupiter": "Jupiter",
+        "saturn": "Saturn",
+        "uranus": "Uranus",
+        "neptune": "Neptune",
+        "pluto": "Pluto"
+    },
+    "zodiac_signs": {
+        "aries": {
+            "title": "Aries",
+            "date": "March 21 - April 19"
+        },
+        "taurus": {
+            "title": "Taurus",
+            "date": "April 20 - May 20"
+        },
+        "gemini": {
+            "title": "Gemini",
+            "date": "May 21 - June 20"
+        },
+        "cancer": {
+            "title": "Cancer",
+            "date": "June 21 - July 22"
+        },
+        "leo": {
+            "title": "Leo",
+            "date": "July 23 - August 22"
+        },
+        "virgo": {
+            "title": "Virgo",
+            "date": "August 23 - September 22"
+        },
+        "libra": {
+            "title": "Libra",
+            "date": "September 23 - October 22"
+        },
+        "scorpio": {
+            "title": "Scorpio",
+            "date": "October 23 - November 21"
+        },
+        "sagittarius": {
+            "title": "Sagittarius",
+            "date": "November 22 - December 21"
+        },
+        "capricorn": {
+            "title": "Capricorn",
+            "date": "December 22 - January 19"
+        },
+        "aquarius": {
+            "title": "Aquarius",
+            "date": "January 20 - February 18"
+        },
+        "pisces": {
+            "title": "Pisces",
+            "date": "February 19 - March 20"
+        }
+    },
+    "relationship_status": {
+        "in-relationship": "In a Relationship",
+        "single": "Single",
+        "married": "Married",
+        "engaged": "Engaged"
+    },
+    "compatibility": {
+        "title": "Compatibility",
+        "compatible": "Compatible 💖",
+        "moderately_compatible": "Moderately Compatible 💛",
+        "incompatible": "Incompatible 💔",
+        "check_compatibility": "Check Compatibility",
+        "left": "Left",
+        "right": "Right",
+        "select_sign": "Select Sign",
+        "swipe_for_more": "Swipe for More",
+        "reset_position": "Reset Position",
+        "zodiac_sign_info": "Zodiac Sign Info",
+        "compatibility_result": "Compatibility Result",
+        "compatibility_check": "Compatibility Check",
+        "high": "High",
+        "medium": "Medium",
+        "low": "Low"
+    },
+    "interpretation": {
+        "title": "Dream Interpretation",
+        "dream_interpretations": "Dream Interpretations",
+        "characters_remaining": "{remaining} characters remaining",
+        "placeholder_text": "Non-useful Multi-line Placeholder"
+    },
+    "tarot": {
+        "daily_tarot": "Daily Tarot",
+        "career": "Career",
+        "love": "Love",
+        "overall": "Overall",
+        "open_tarot_cards": "Open Tarot Cards",
+        "get_reading": "Get Reading"
+    },
+    "welcome": {
+        "step1": "Your Name",
+        "step2": "Your Date of Birth",
+        "step3": "Your Time of Birth",
+        "step4": "Your Gender",
+        "step5": "Your Relationship Status",
+        "name_placeholder": "Enter your name",
+        "name_error": "Please enter your name",
+        "dob_error": "Please select your date of birth",
+        "time_error": "Please select your time of birth",
+        "gender_error": "Please specify your gender",
+        "relationship_error": "Please specify your relationship status",
+        "step_info_1": "Provide some information about yourself so we can make a more personalized prediction.",
+        "step_info_2": "The date is important for determining your sun sign, numerology, and compatibility.",
+        "step_info_3": "The time is important for determining your houses, rising sign, and the exact position of the moon.",
+        "step_info_4": "This will show the balance of your masculine and feminine energies.",
+        "step_info_5": "Your relationship status provides clues about your love life.",
+        "done": "Done",
+        "back": "Back",
+        "next": "Next"
+    },
+    "genders":{
+        "male":"Male",
+        "female":"Female",
+        "other":"Other"
+    }
+}

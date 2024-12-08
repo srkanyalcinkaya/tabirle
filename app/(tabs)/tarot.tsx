@@ -6,6 +6,7 @@ import Animated, { useSharedValue, useAnimatedStyle, withTiming, interpolate } f
 
 // Tarot JSON verisini içe aktarıyoruz
 import { tarotDeck } from "@/data/tarot_deck";
+import { useTranslation } from "react-i18next";
 
 
 
@@ -19,9 +20,9 @@ type TarotCard = {
 };
 
 export default function Tarot() {
+    const { t } = useTranslation();
     const [selectedCards, setSelectedCards] = useState<number[]>([]);
     const [showButton, setShowButton] = useState(false);
-    // const [isFlipped, setIsFlipped] = useState(false);
     const [revealedCards, setRevealedCards] = useState<any>([null, null, null]);
 
     const fadeAnim = useSharedValue(0);
@@ -43,10 +44,6 @@ export default function Tarot() {
                 console.log("buton göster")
             }
         }
-    };
-
-    const handleRevealCards = () => {
-        // setIsFlipped(true);
     };
 
     const buttonStyle = useAnimatedStyle(() => ({
@@ -81,13 +78,13 @@ export default function Tarot() {
             <Image source={require("@/assets/images/dec-1.png")} className="object-cover absolute z-[2]" />
             <Image source={require("@/assets/images/stars.png")} className="object-center absolute z-[3]" />
             <SafeAreaView className="relative z-10 flex-1 w-full px-5">
-                <Text className="text-white text-3xl font-bold mb-8 font-abold text-center">Daily Tarot</Text>
+                <Text className="text-white text-2xl font-abold mt-5 mb-8 text-center">{t("tarot.daily_tarot")}</Text>
 
                 {/* Üstteki boş tarot yerleri */}
                 <View className="flex-row space-x-4 mb-4 justify-between">
-                    {['Career', 'Love', 'Overall'].map((label, idx) => (
+                    {[t('tarot.career'), t('tarot.love'), t('tarot.overall')].map((label, idx) => (
                         <View key={idx} className="items-center">
-                            <View className="w-24 h-36 bg-black rounded-2xl items-center justify-center">
+                            <View className="w-20 h-32 bg-black rounded-2xl items-center justify-center">
                                 {revealedCards[idx] ? (
                                     <FlipCard
                                         isFlipped={isFlipped}
@@ -182,7 +179,7 @@ export default function Tarot() {
                 </View> */}
                 <View className="mb-8">
                     {groupCards(tarotDeck, groupSizes).map((group, rowIndex) => (
-                        <View key={rowIndex} className="flex-row justify-center mb-4">
+                        <View key={rowIndex} className="flex-row justify-center mb-2">
                             {group.map((card: any, index: number) => {
                                 const adjustedIndex = groupSizes.slice(0, rowIndex).reduce((acc, val) => acc + val, 0) + index; // Grupların toplamı üzerinden index hesaplama
                                 return (
@@ -190,7 +187,7 @@ export default function Tarot() {
                                         key={card.id}
                                         onPress={() => handleCardSelect(adjustedIndex)}
                                         disabled={selectedCards.includes(adjustedIndex) || isFlipped.value}
-                                        className={`w-14 h-20 m-2 ${selectedCards.includes(adjustedIndex) ? 'opacity-50' : ''}`}
+                                        className={`w-10 h-16 m-2 ${selectedCards.includes(adjustedIndex) ? 'opacity-50' : ''}`}
                                     >
                                         <Image
                                             source={require("@/assets/images/tarots-cards/tarot_backend.png")}
@@ -218,7 +215,7 @@ export default function Tarot() {
                 {/* Kart Açıklamaları ve Get Reading Butonu */}
                 {isFlipped.value && (
                     <View className="absolute bottom-20 left-0 right-0  justify-center items-center ">
-                        <TouchableOpacity onPress={()=>{console.log(revealedCards)}} className="bg-[#DAA520] mt-8 rounded-full px-6 py-3">
+                        <TouchableOpacity onPress={() => { console.log(revealedCards) }} className="bg-[#DAA520] mt-8 rounded-full px-6 py-3">
                             <Text className="text-white text-xl">Get Reading</Text>
                         </TouchableOpacity>
                     </View>

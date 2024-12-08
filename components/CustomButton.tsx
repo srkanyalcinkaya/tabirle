@@ -87,7 +87,7 @@ const CustomButton = ({ flatListRef, flatListIndex, dataLength, x }: Props) => {
                 if (flatListIndex.value < dataLength - 1) {
                     flatListRef.current?.scrollToIndex({ index: flatListIndex.value + 1 });
                 } else {
-                    router.replace('/(auth)/login');
+                    router.replace('/login');
                 }
             }}>
             <Animated.View

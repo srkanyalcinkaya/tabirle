@@ -1,0 +1,842 @@
+{
+    star: 'Mars\n' +
+      'Grubun: Ateş, Pozitif\n' +
+      'Niteliği: Öncü \n' +
+      'Burcunun cinsiyeti: Eril\n' +
+      'Yeteneğin: Canlılık ve hareket\n' +
+      'Seni sen yapan: Yeni girişimler, cesaret, atılganlık\n' +
+      'Hedeflerin: Öncülük, liderlik, yol göstericilik, yenilikçilik\n' +
+      'Sonuç: Başarı ve zafer\n' +
+      'Bastırman gereken huyun: Kesinlikle sabırsızlık, çabuk sinirlenmek \n' +
+      'Şanslı günün: Salı\n' +
+      'Şanslı sayıların: 7,
+    47,
+    87\n' +
+      'Şans getiren taşın: Pırlanta\n' +
+      'Şans getiren rengin: Narçiçeği, Ateş kırmızısı ve kırmızının her tonu \n' +
+      'Sevdiğin Çiçekler: Sardunya, limon  çiçeği, manolya, lavanta çiçeği\n' +
+      'Bitkilerin: Lale, Gelincik, Nar çiçeği, papatya \n' +
+      'Müzik tarzın: Hızlı tempolu parçalar ve marşlar\n' +
+      'Vücutta temsil ettiğin bölgeler: Baş bölgesi ve yüzü temsil eder.\n' +
+      'Mevsimin: İlkbahar \n' +
+      'Olası Hastalıkların: Migren, yüze alınan darbeler, baş ağrısı, diş ağrısı, yüksek ateş, adele rahatsızlıkları, yüksek tansiyon, beyin iltihabı…\n' +
+      'Sağlına yararlı besinler: Pancar, marul, salatalık, ceviz, elma, limon, balık süt ve süt ürünleri\n' +
+      'Uzak durulması gereken besinler: Mayonez, soslar, makarna, kızartma ve yağlı yiyecekler\n' +
+      'Uyumlu Burç: Aslan ve Yay\n' +
+      'Karşıt Burcun: Terazi\n' +
+      'Başarılı olacağın meslekler: Politika, organizatörlük, yöneticilik, endüstri, mühendislik, işletmecilik, komutanlık, kimyacı, operatör, demir ve çelik işleri, makine, mizah ve fıkra yazarlığı, eleştirmenlik, ressamlık, müzik, konfeksiyonculuk.\n' +
+      'Olumlu özelliklerin: Pratik, lider ruhlu, bulunduğu ortamlarda rahatça sosyalleşen, cazibeli\n' +
+      'Olumsuz özelliklerin: Öfkeli, patavatsız, kıskanç, sabırsız\n' +
+      'Burcunun Yönettiği ülkeler:  İngiltere, Filistin, Danimarka, Almanya, Japonya, İsveç, Suriye\n' +
+      'Burcunun Yönettiği şehirler: Berlin, Birmingham, Saragossa, Nepal',
+    group: 'Yıldızın: Mars\n' +
+      ' Ateş, Pozitif\n' +
+      'Niteliği: Öncü \n' +
+      'Burcunun cinsiyeti: Eril\n' +
+      'Yeteneğin: Canlılık ve hareket\n' +
+      'Seni sen yapan: Yeni girişimler, cesaret, atılganlık\n' +
+      'Hedeflerin: Öncülük, liderlik, yol göstericilik, yenilikçilik\n' +
+      'Sonuç: Başarı ve zafer\n' +
+      'Bastırman gereken huyun: Kesinlikle sabırsızlık, çabuk sinirlenmek \n' +
+      'Şanslı günün: Salı\n' +
+      'Şanslı sayıların: 7,
+    47,
+    87\n' +
+      'Şans getiren taşın: Pırlanta\n' +
+      'Şans getiren rengin: Narçiçeği, Ateş kırmızısı ve kırmızının her tonu \n' +
+      'Sevdiğin Çiçekler: Sardunya, limon  çiçeği, manolya, lavanta çiçeği\n' +
+      'Bitkilerin: Lale, Gelincik, Nar çiçeği, papatya \n' +
+      'Müzik tarzın: Hızlı tempolu parçalar ve marşlar\n' +
+      'Vücutta temsil ettiğin bölgeler: Baş bölgesi ve yüzü temsil eder.\n' +
+      'Mevsimin: İlkbahar \n' +
+      'Olası Hastalıkların: Migren, yüze alınan darbeler, baş ağrısı, diş ağrısı, yüksek ateş, adele rahatsızlıkları, yüksek tansiyon, beyin iltihabı…\n' +
+      'Sağlına yararlı besinler: Pancar, marul, salatalık, ceviz, elma, limon, balık süt ve süt ürünleri\n' +
+      'Uzak durulması gereken besinler: Mayonez, soslar, makarna, kızartma ve yağlı yiyecekler\n' +
+      'Uyumlu Burç: Aslan ve Yay\n' +
+      'Karşıt Burcun: Terazi\n' +
+      'Başarılı olacağın meslekler: Politika, organizatörlük, yöneticilik, endüstri, mühendislik, işletmecilik, komutanlık, kimyacı, operatör, demir ve çelik işleri, makine, mizah ve fıkra yazarlığı, eleştirmenlik, ressamlık, müzik, konfeksiyonculuk.\n' +
+      'Olumlu özelliklerin: Pratik, lider ruhlu, bulunduğu ortamlarda rahatça sosyalleşen, cazibeli\n' +
+      'Olumsuz özelliklerin: Öfkeli, patavatsız, kıskanç, sabırsız\n' +
+      'Burcunun Yönettiği ülkeler:  İngiltere, Filistin, Danimarka, Almanya, Japonya, İsveç, Suriye\n' +
+      'Burcunun Yönettiği şehirler: Berlin, Birmingham, Saragossa, Nepal',
+    quality: 'Yıldızın: Mars\n' +
+      'Grubun: Ateş, Pozitif\n' +
+      ' Öncü \n' +
+      'Burcunun cinsiyeti: Eril\n' +
+      'Yeteneğin: Canlılık ve hareket\n' +
+      'Seni sen yapan: Yeni girişimler, cesaret, atılganlık\n' +
+      'Hedeflerin: Öncülük, liderlik, yol göstericilik, yenilikçilik\n' +
+      'Sonuç: Başarı ve zafer\n' +
+      'Bastırman gereken huyun: Kesinlikle sabırsızlık, çabuk sinirlenmek \n' +
+      'Şanslı günün: Salı\n' +
+      'Şanslı sayıların: 7,
+    47,
+    87\n' +
+      'Şans getiren taşın: Pırlanta\n' +
+      'Şans getiren rengin: Narçiçeği, Ateş kırmızısı ve kırmızının her tonu \n' +
+      'Sevdiğin Çiçekler: Sardunya, limon  çiçeği, manolya, lavanta çiçeği\n' +
+      'Bitkilerin: Lale, Gelincik, Nar çiçeği, papatya \n' +
+      'Müzik tarzın: Hızlı tempolu parçalar ve marşlar\n' +
+      'Vücutta temsil ettiğin bölgeler: Baş bölgesi ve yüzü temsil eder.\n' +
+      'Mevsimin: İlkbahar \n' +
+      'Olası Hastalıkların: Migren, yüze alınan darbeler, baş ağrısı, diş ağrısı, yüksek ateş, adele rahatsızlıkları, yüksek tansiyon, beyin iltihabı…\n' +
+      'Sağlına yararlı besinler: Pancar, marul, salatalık, ceviz, elma, limon, balık süt ve süt ürünleri\n' +
+      'Uzak durulması gereken besinler: Mayonez, soslar, makarna, kızartma ve yağlı yiyecekler\n' +
+      'Uyumlu Burç: Aslan ve Yay\n' +
+      'Karşıt Burcun: Terazi\n' +
+      'Başarılı olacağın meslekler: Politika, organizatörlük, yöneticilik, endüstri, mühendislik, işletmecilik, komutanlık, kimyacı, operatör, demir ve çelik işleri, makine, mizah ve fıkra yazarlığı, eleştirmenlik, ressamlık, müzik, konfeksiyonculuk.\n' +
+      'Olumlu özelliklerin: Pratik, lider ruhlu, bulunduğu ortamlarda rahatça sosyalleşen, cazibeli\n' +
+      'Olumsuz özelliklerin: Öfkeli, patavatsız, kıskanç, sabırsız\n' +
+      'Burcunun Yönettiği ülkeler:  İngiltere, Filistin, Danimarka, Almanya, Japonya, İsveç, Suriye\n' +
+      'Burcunun Yönettiği şehirler: Berlin, Birmingham, Saragossa, Nepal',
+    gender: 'Yıldızın: Mars\n' +
+      'Grubun: Ateş, Pozitif\n' +
+      'Niteliği: Öncü \n' +
+      ' Eril\n' +
+      'Yeteneğin: Canlılık ve hareket\n' +
+      'Seni sen yapan: Yeni girişimler, cesaret, atılganlık\n' +
+      'Hedeflerin: Öncülük, liderlik, yol göstericilik, yenilikçilik\n' +
+      'Sonuç: Başarı ve zafer\n' +
+      'Bastırman gereken huyun: Kesinlikle sabırsızlık, çabuk sinirlenmek \n' +
+      'Şanslı günün: Salı\n' +
+      'Şanslı sayıların: 7,
+    47,
+    87\n' +
+      'Şans getiren taşın: Pırlanta\n' +
+      'Şans getiren rengin: Narçiçeği, Ateş kırmızısı ve kırmızının her tonu \n' +
+      'Sevdiğin Çiçekler: Sardunya, limon  çiçeği, manolya, lavanta çiçeği\n' +
+      'Bitkilerin: Lale, Gelincik, Nar çiçeği, papatya \n' +
+      'Müzik tarzın: Hızlı tempolu parçalar ve marşlar\n' +
+      'Vücutta temsil ettiğin bölgeler: Baş bölgesi ve yüzü temsil eder.\n' +
+      'Mevsimin: İlkbahar \n' +
+      'Olası Hastalıkların: Migren, yüze alınan darbeler, baş ağrısı, diş ağrısı, yüksek ateş, adele rahatsızlıkları, yüksek tansiyon, beyin iltihabı…\n' +
+      'Sağlına yararlı besinler: Pancar, marul, salatalık, ceviz, elma, limon, balık süt ve süt ürünleri\n' +
+      'Uzak durulması gereken besinler: Mayonez, soslar, makarna, kızartma ve yağlı yiyecekler\n' +
+      'Uyumlu Burç: Aslan ve Yay\n' +
+      'Karşıt Burcun: Terazi\n' +
+      'Başarılı olacağın meslekler: Politika, organizatörlük, yöneticilik, endüstri, mühendislik, işletmecilik, komutanlık, kimyacı, operatör, demir ve çelik işleri, makine, mizah ve fıkra yazarlığı, eleştirmenlik, ressamlık, müzik, konfeksiyonculuk.\n' +
+      'Olumlu özelliklerin: Pratik, lider ruhlu, bulunduğu ortamlarda rahatça sosyalleşen, cazibeli\n' +
+      'Olumsuz özelliklerin: Öfkeli, patavatsız, kıskanç, sabırsız\n' +
+      'Burcunun Yönettiği ülkeler:  İngiltere, Filistin, Danimarka, Almanya, Japonya, İsveç, Suriye\n' +
+      'Burcunun Yönettiği şehirler: Berlin, Birmingham, Saragossa, Nepal',
+    talent: 'Yıldızın: Mars\n' +
+      'Grubun: Ateş, Pozitif\n' +
+      'Niteliği: Öncü \n' +
+      'Burcunun cinsiyeti: Eril\n' +
+      ' Canlılık ve hareket\n' +
+      'Seni sen yapan: Yeni girişimler, cesaret, atılganlık\n' +
+      'Hedeflerin: Öncülük, liderlik, yol göstericilik, yenilikçilik\n' +
+      'Sonuç: Başarı ve zafer\n' +
+      'Bastırman gereken huyun: Kesinlikle sabırsızlık, çabuk sinirlenmek \n' +
+      'Şanslı günün: Salı\n' +
+      'Şanslı sayıların: 7,
+    47,
+    87\n' +
+      'Şans getiren taşın: Pırlanta\n' +
+      'Şans getiren rengin: Narçiçeği, Ateş kırmızısı ve kırmızının her tonu \n' +
+      'Sevdiğin Çiçekler: Sardunya, limon  çiçeği, manolya, lavanta çiçeği\n' +
+      'Bitkilerin: Lale, Gelincik, Nar çiçeği, papatya \n' +
+      'Müzik tarzın: Hızlı tempolu parçalar ve marşlar\n' +
+      'Vücutta temsil ettiğin bölgeler: Baş bölgesi ve yüzü temsil eder.\n' +
+      'Mevsimin: İlkbahar \n' +
+      'Olası Hastalıkların: Migren, yüze alınan darbeler, baş ağrısı, diş ağrısı, yüksek ateş, adele rahatsızlıkları, yüksek tansiyon, beyin iltihabı…\n' +
+      'Sağlına yararlı besinler: Pancar, marul, salatalık, ceviz, elma, limon, balık süt ve süt ürünleri\n' +
+      'Uzak durulması gereken besinler: Mayonez, soslar, makarna, kızartma ve yağlı yiyecekler\n' +
+      'Uyumlu Burç: Aslan ve Yay\n' +
+      'Karşıt Burcun: Terazi\n' +
+      'Başarılı olacağın meslekler: Politika, organizatörlük, yöneticilik, endüstri, mühendislik, işletmecilik, komutanlık, kimyacı, operatör, demir ve çelik işleri, makine, mizah ve fıkra yazarlığı, eleştirmenlik, ressamlık, müzik, konfeksiyonculuk.\n' +
+      'Olumlu özelliklerin: Pratik, lider ruhlu, bulunduğu ortamlarda rahatça sosyalleşen, cazibeli\n' +
+      'Olumsuz özelliklerin: Öfkeli, patavatsız, kıskanç, sabırsız\n' +
+      'Burcunun Yönettiği ülkeler:  İngiltere, Filistin, Danimarka, Almanya, Japonya, İsveç, Suriye\n' +
+      'Burcunun Yönettiği şehirler: Berlin, Birmingham, Saragossa, Nepal',
+    definingTrait: 'Yıldızın: Mars\n' +
+      'Grubun: Ateş, Pozitif\n' +
+      'Niteliği: Öncü \n' +
+      'Burcunun cinsiyeti: Eril\n' +
+      'Yeteneğin: Canlılık ve hareket\n' +
+      ' Yeni girişimler, cesaret, atılganlık\n' +
+      'Hedeflerin: Öncülük, liderlik, yol göstericilik, yenilikçilik\n' +
+      'Sonuç: Başarı ve zafer\n' +
+      'Bastırman gereken huyun: Kesinlikle sabırsızlık, çabuk sinirlenmek \n' +
+      'Şanslı günün: Salı\n' +
+      'Şanslı sayıların: 7,
+    47,
+    87\n' +
+      'Şans getiren taşın: Pırlanta\n' +
+      'Şans getiren rengin: Narçiçeği, Ateş kırmızısı ve kırmızının her tonu \n' +
+      'Sevdiğin Çiçekler: Sardunya, limon  çiçeği, manolya, lavanta çiçeği\n' +
+      'Bitkilerin: Lale, Gelincik, Nar çiçeği, papatya \n' +
+      'Müzik tarzın: Hızlı tempolu parçalar ve marşlar\n' +
+      'Vücutta temsil ettiğin bölgeler: Baş bölgesi ve yüzü temsil eder.\n' +
+      'Mevsimin: İlkbahar \n' +
+      'Olası Hastalıkların: Migren, yüze alınan darbeler, baş ağrısı, diş ağrısı, yüksek ateş, adele rahatsızlıkları, yüksek tansiyon, beyin iltihabı…\n' +
+      'Sağlına yararlı besinler: Pancar, marul, salatalık, ceviz, elma, limon, balık süt ve süt ürünleri\n' +
+      'Uzak durulması gereken besinler: Mayonez, soslar, makarna, kızartma ve yağlı yiyecekler\n' +
+      'Uyumlu Burç: Aslan ve Yay\n' +
+      'Karşıt Burcun: Terazi\n' +
+      'Başarılı olacağın meslekler: Politika, organizatörlük, yöneticilik, endüstri, mühendislik, işletmecilik, komutanlık, kimyacı, operatör, demir ve çelik işleri, makine, mizah ve fıkra yazarlığı, eleştirmenlik, ressamlık, müzik, konfeksiyonculuk.\n' +
+      'Olumlu özelliklerin: Pratik, lider ruhlu, bulunduğu ortamlarda rahatça sosyalleşen, cazibeli\n' +
+      'Olumsuz özelliklerin: Öfkeli, patavatsız, kıskanç, sabırsız\n' +
+      'Burcunun Yönettiği ülkeler:  İngiltere, Filistin, Danimarka, Almanya, Japonya, İsveç, Suriye\n' +
+      'Burcunun Yönettiği şehirler: Berlin, Birmingham, Saragossa, Nepal',
+    goals: 'Yıldızın: Mars\n' +
+      'Grubun: Ateş, Pozitif\n' +
+      'Niteliği: Öncü \n' +
+      'Burcunun cinsiyeti: Eril\n' +
+      'Yeteneğin: Canlılık ve hareket\n' +
+      'Seni sen yapan: Yeni girişimler, cesaret, atılganlık\n' +
+      ' Öncülük, liderlik, yol göstericilik, yenilikçilik\n' +
+      'Sonuç: Başarı ve zafer\n' +
+      'Bastırman gereken huyun: Kesinlikle sabırsızlık, çabuk sinirlenmek \n' +
+      'Şanslı günün: Salı\n' +
+      'Şanslı sayıların: 7,
+    47,
+    87\n' +
+      'Şans getiren taşın: Pırlanta\n' +
+      'Şans getiren rengin: Narçiçeği, Ateş kırmızısı ve kırmızının her tonu \n' +
+      'Sevdiğin Çiçekler: Sardunya, limon  çiçeği, manolya, lavanta çiçeği\n' +
+      'Bitkilerin: Lale, Gelincik, Nar çiçeği, papatya \n' +
+      'Müzik tarzın: Hızlı tempolu parçalar ve marşlar\n' +
+      'Vücutta temsil ettiğin bölgeler: Baş bölgesi ve yüzü temsil eder.\n' +
+      'Mevsimin: İlkbahar \n' +
+      'Olası Hastalıkların: Migren, yüze alınan darbeler, baş ağrısı, diş ağrısı, yüksek ateş, adele rahatsızlıkları, yüksek tansiyon, beyin iltihabı…\n' +
+      'Sağlına yararlı besinler: Pancar, marul, salatalık, ceviz, elma, limon, balık süt ve süt ürünleri\n' +
+      'Uzak durulması gereken besinler: Mayonez, soslar, makarna, kızartma ve yağlı yiyecekler\n' +
+      'Uyumlu Burç: Aslan ve Yay\n' +
+      'Karşıt Burcun: Terazi\n' +
+      'Başarılı olacağın meslekler: Politika, organizatörlük, yöneticilik, endüstri, mühendislik, işletmecilik, komutanlık, kimyacı, operatör, demir ve çelik işleri, makine, mizah ve fıkra yazarlığı, eleştirmenlik, ressamlık, müzik, konfeksiyonculuk.\n' +
+      'Olumlu özelliklerin: Pratik, lider ruhlu, bulunduğu ortamlarda rahatça sosyalleşen, cazibeli\n' +
+      'Olumsuz özelliklerin: Öfkeli, patavatsız, kıskanç, sabırsız\n' +
+      'Burcunun Yönettiği ülkeler:  İngiltere, Filistin, Danimarka, Almanya, Japonya, İsveç, Suriye\n' +
+      'Burcunun Yönettiği şehirler: Berlin, Birmingham, Saragossa, Nepal',
+    result: 'Yıldızın: Mars\n' +
+      'Grubun: Ateş, Pozitif\n' +
+      'Niteliği: Öncü \n' +
+      'Burcunun cinsiyeti: Eril\n' +
+      'Yeteneğin: Canlılık ve hareket\n' +
+      'Seni sen yapan: Yeni girişimler, cesaret, atılganlık\n' +
+      'Hedeflerin: Öncülük, liderlik, yol göstericilik, yenilikçilik\n' +
+      ' Başarı ve zafer\n' +
+      'Bastırman gereken huyun: Kesinlikle sabırsızlık, çabuk sinirlenmek \n' +
+      'Şanslı günün: Salı\n' +
+      'Şanslı sayıların: 7,
+    47,
+    87\n' +
+      'Şans getiren taşın: Pırlanta\n' +
+      'Şans getiren rengin: Narçiçeği, Ateş kırmızısı ve kırmızının her tonu \n' +
+      'Sevdiğin Çiçekler: Sardunya, limon  çiçeği, manolya, lavanta çiçeği\n' +
+      'Bitkilerin: Lale, Gelincik, Nar çiçeği, papatya \n' +
+      'Müzik tarzın: Hızlı tempolu parçalar ve marşlar\n' +
+      'Vücutta temsil ettiğin bölgeler: Baş bölgesi ve yüzü temsil eder.\n' +
+      'Mevsimin: İlkbahar \n' +
+      'Olası Hastalıkların: Migren, yüze alınan darbeler, baş ağrısı, diş ağrısı, yüksek ateş, adele rahatsızlıkları, yüksek tansiyon, beyin iltihabı…\n' +
+      'Sağlına yararlı besinler: Pancar, marul, salatalık, ceviz, elma, limon, balık süt ve süt ürünleri\n' +
+      'Uzak durulması gereken besinler: Mayonez, soslar, makarna, kızartma ve yağlı yiyecekler\n' +
+      'Uyumlu Burç: Aslan ve Yay\n' +
+      'Karşıt Burcun: Terazi\n' +
+      'Başarılı olacağın meslekler: Politika, organizatörlük, yöneticilik, endüstri, mühendislik, işletmecilik, komutanlık, kimyacı, operatör, demir ve çelik işleri, makine, mizah ve fıkra yazarlığı, eleştirmenlik, ressamlık, müzik, konfeksiyonculuk.\n' +
+      'Olumlu özelliklerin: Pratik, lider ruhlu, bulunduğu ortamlarda rahatça sosyalleşen, cazibeli\n' +
+      'Olumsuz özelliklerin: Öfkeli, patavatsız, kıskanç, sabırsız\n' +
+      'Burcunun Yönettiği ülkeler:  İngiltere, Filistin, Danimarka, Almanya, Japonya, İsveç, Suriye\n' +
+      'Burcunun Yönettiği şehirler: Berlin, Birmingham, Saragossa, Nepal',
+    flawToSuppress: 'Yıldızın: Mars\n' +
+      'Grubun: Ateş, Pozitif\n' +
+      'Niteliği: Öncü \n' +
+      'Burcunun cinsiyeti: Eril\n' +
+      'Yeteneğin: Canlılık ve hareket\n' +
+      'Seni sen yapan: Yeni girişimler, cesaret, atılganlık\n' +
+      'Hedeflerin: Öncülük, liderlik, yol göstericilik, yenilikçilik\n' +
+      'Sonuç: Başarı ve zafer\n' +
+      ' Kesinlikle sabırsızlık, çabuk sinirlenmek \n' +
+      'Şanslı günün: Salı\n' +
+      'Şanslı sayıların: 7,
+    47,
+    87\n' +
+      'Şans getiren taşın: Pırlanta\n' +
+      'Şans getiren rengin: Narçiçeği, Ateş kırmızısı ve kırmızının her tonu \n' +
+      'Sevdiğin Çiçekler: Sardunya, limon  çiçeği, manolya, lavanta çiçeği\n' +
+      'Bitkilerin: Lale, Gelincik, Nar çiçeği, papatya \n' +
+      'Müzik tarzın: Hızlı tempolu parçalar ve marşlar\n' +
+      'Vücutta temsil ettiğin bölgeler: Baş bölgesi ve yüzü temsil eder.\n' +
+      'Mevsimin: İlkbahar \n' +
+      'Olası Hastalıkların: Migren, yüze alınan darbeler, baş ağrısı, diş ağrısı, yüksek ateş, adele rahatsızlıkları, yüksek tansiyon, beyin iltihabı…\n' +
+      'Sağlına yararlı besinler: Pancar, marul, salatalık, ceviz, elma, limon, balık süt ve süt ürünleri\n' +
+      'Uzak durulması gereken besinler: Mayonez, soslar, makarna, kızartma ve yağlı yiyecekler\n' +
+      'Uyumlu Burç: Aslan ve Yay\n' +
+      'Karşıt Burcun: Terazi\n' +
+      'Başarılı olacağın meslekler: Politika, organizatörlük, yöneticilik, endüstri, mühendislik, işletmecilik, komutanlık, kimyacı, operatör, demir ve çelik işleri, makine, mizah ve fıkra yazarlığı, eleştirmenlik, ressamlık, müzik, konfeksiyonculuk.\n' +
+      'Olumlu özelliklerin: Pratik, lider ruhlu, bulunduğu ortamlarda rahatça sosyalleşen, cazibeli\n' +
+      'Olumsuz özelliklerin: Öfkeli, patavatsız, kıskanç, sabırsız\n' +
+      'Burcunun Yönettiği ülkeler:  İngiltere, Filistin, Danimarka, Almanya, Japonya, İsveç, Suriye\n' +
+      'Burcunun Yönettiği şehirler: Berlin, Birmingham, Saragossa, Nepal',
+    luckyDay: 'Yıldızın: Mars\n' +
+      'Grubun: Ateş, Pozitif\n' +
+      'Niteliği: Öncü \n' +
+      'Burcunun cinsiyeti: Eril\n' +
+      'Yeteneğin: Canlılık ve hareket\n' +
+      'Seni sen yapan: Yeni girişimler, cesaret, atılganlık\n' +
+      'Hedeflerin: Öncülük, liderlik, yol göstericilik, yenilikçilik\n' +
+      'Sonuç: Başarı ve zafer\n' +
+      'Bastırman gereken huyun: Kesinlikle sabırsızlık, çabuk sinirlenmek \n' +
+      ' Salı\n' +
+      'Şanslı sayıların: 7,
+    47,
+    87\n' +
+      'Şans getiren taşın: Pırlanta\n' +
+      'Şans getiren rengin: Narçiçeği, Ateş kırmızısı ve kırmızının her tonu \n' +
+      'Sevdiğin Çiçekler: Sardunya, limon  çiçeği, manolya, lavanta çiçeği\n' +
+      'Bitkilerin: Lale, Gelincik, Nar çiçeği, papatya \n' +
+      'Müzik tarzın: Hızlı tempolu parçalar ve marşlar\n' +
+      'Vücutta temsil ettiğin bölgeler: Baş bölgesi ve yüzü temsil eder.\n' +
+      'Mevsimin: İlkbahar \n' +
+      'Olası Hastalıkların: Migren, yüze alınan darbeler, baş ağrısı, diş ağrısı, yüksek ateş, adele rahatsızlıkları, yüksek tansiyon, beyin iltihabı…\n' +
+      'Sağlına yararlı besinler: Pancar, marul, salatalık, ceviz, elma, limon, balık süt ve süt ürünleri\n' +
+      'Uzak durulması gereken besinler: Mayonez, soslar, makarna, kızartma ve yağlı yiyecekler\n' +
+      'Uyumlu Burç: Aslan ve Yay\n' +
+      'Karşıt Burcun: Terazi\n' +
+      'Başarılı olacağın meslekler: Politika, organizatörlük, yöneticilik, endüstri, mühendislik, işletmecilik, komutanlık, kimyacı, operatör, demir ve çelik işleri, makine, mizah ve fıkra yazarlığı, eleştirmenlik, ressamlık, müzik, konfeksiyonculuk.\n' +
+      'Olumlu özelliklerin: Pratik, lider ruhlu, bulunduğu ortamlarda rahatça sosyalleşen, cazibeli\n' +
+      'Olumsuz özelliklerin: Öfkeli, patavatsız, kıskanç, sabırsız\n' +
+      'Burcunun Yönettiği ülkeler:  İngiltere, Filistin, Danimarka, Almanya, Japonya, İsveç, Suriye\n' +
+      'Burcunun Yönettiği şehirler: Berlin, Birmingham, Saragossa, Nepal',
+    luckyNumbers: 'Yıldızın: Mars\n' +
+      'Grubun: Ateş, Pozitif\n' +
+      'Niteliği: Öncü \n' +
+      'Burcunun cinsiyeti: Eril\n' +
+      'Yeteneğin: Canlılık ve hareket\n' +
+      'Seni sen yapan: Yeni girişimler, cesaret, atılganlık\n' +
+      'Hedeflerin: Öncülük, liderlik, yol göstericilik, yenilikçilik\n' +
+      'Sonuç: Başarı ve zafer\n' +
+      'Bastırman gereken huyun: Kesinlikle sabırsızlık, çabuk sinirlenmek \n' +
+      'Şanslı günün: Salı\n' +
+      ' 7,
+    47,
+    87\n' +
+      'Şans getiren taşın: Pırlanta\n' +
+      'Şans getiren rengin: Narçiçeği, Ateş kırmızısı ve kırmızının her tonu \n' +
+      'Sevdiğin Çiçekler: Sardunya, limon  çiçeği, manolya, lavanta çiçeği\n' +
+      'Bitkilerin: Lale, Gelincik, Nar çiçeği, papatya \n' +
+      'Müzik tarzın: Hızlı tempolu parçalar ve marşlar\n' +
+      'Vücutta temsil ettiğin bölgeler: Baş bölgesi ve yüzü temsil eder.\n' +
+      'Mevsimin: İlkbahar \n' +
+      'Olası Hastalıkların: Migren, yüze alınan darbeler, baş ağrısı, diş ağrısı, yüksek ateş, adele rahatsızlıkları, yüksek tansiyon, beyin iltihabı…\n' +
+      'Sağlına yararlı besinler: Pancar, marul, salatalık, ceviz, elma, limon, balık süt ve süt ürünleri\n' +
+      'Uzak durulması gereken besinler: Mayonez, soslar, makarna, kızartma ve yağlı yiyecekler\n' +
+      'Uyumlu Burç: Aslan ve Yay\n' +
+      'Karşıt Burcun: Terazi\n' +
+      'Başarılı olacağın meslekler: Politika, organizatörlük, yöneticilik, endüstri, mühendislik, işletmecilik, komutanlık, kimyacı, operatör, demir ve çelik işleri, makine, mizah ve fıkra yazarlığı, eleştirmenlik, ressamlık, müzik, konfeksiyonculuk.\n' +
+      'Olumlu özelliklerin: Pratik, lider ruhlu, bulunduğu ortamlarda rahatça sosyalleşen, cazibeli\n' +
+      'Olumsuz özelliklerin: Öfkeli, patavatsız, kıskanç, sabırsız\n' +
+      'Burcunun Yönettiği ülkeler:  İngiltere, Filistin, Danimarka, Almanya, Japonya, İsveç, Suriye\n' +
+      'Burcunun Yönettiği şehirler: Berlin, Birmingham, Saragossa, Nepal',
+    luckyStone: 'Yıldızın: Mars\n' +
+      'Grubun: Ateş, Pozitif\n' +
+      'Niteliği: Öncü \n' +
+      'Burcunun cinsiyeti: Eril\n' +
+      'Yeteneğin: Canlılık ve hareket\n' +
+      'Seni sen yapan: Yeni girişimler, cesaret, atılganlık\n' +
+      'Hedeflerin: Öncülük, liderlik, yol göstericilik, yenilikçilik\n' +
+      'Sonuç: Başarı ve zafer\n' +
+      'Bastırman gereken huyun: Kesinlikle sabırsızlık, çabuk sinirlenmek \n' +
+      'Şanslı günün: Salı\n' +
+      'Şanslı sayıların: 7,
+    47,
+    87\n' +
+      ' Pırlanta\n' +
+      'Şans getiren rengin: Narçiçeği, Ateş kırmızısı ve kırmızının her tonu \n' +
+      'Sevdiğin Çiçekler: Sardunya, limon  çiçeği, manolya, lavanta çiçeği\n' +
+      'Bitkilerin: Lale, Gelincik, Nar çiçeği, papatya \n' +
+      'Müzik tarzın: Hızlı tempolu parçalar ve marşlar\n' +
+      'Vücutta temsil ettiğin bölgeler: Baş bölgesi ve yüzü temsil eder.\n' +
+      'Mevsimin: İlkbahar \n' +
+      'Olası Hastalıkların: Migren, yüze alınan darbeler, baş ağrısı, diş ağrısı, yüksek ateş, adele rahatsızlıkları, yüksek tansiyon, beyin iltihabı…\n' +
+      'Sağlına yararlı besinler: Pancar, marul, salatalık, ceviz, elma, limon, balık süt ve süt ürünleri\n' +
+      'Uzak durulması gereken besinler: Mayonez, soslar, makarna, kızartma ve yağlı yiyecekler\n' +
+      'Uyumlu Burç: Aslan ve Yay\n' +
+      'Karşıt Burcun: Terazi\n' +
+      'Başarılı olacağın meslekler: Politika, organizatörlük, yöneticilik, endüstri, mühendislik, işletmecilik, komutanlık, kimyacı, operatör, demir ve çelik işleri, makine, mizah ve fıkra yazarlığı, eleştirmenlik, ressamlık, müzik, konfeksiyonculuk.\n' +
+      'Olumlu özelliklerin: Pratik, lider ruhlu, bulunduğu ortamlarda rahatça sosyalleşen, cazibeli\n' +
+      'Olumsuz özelliklerin: Öfkeli, patavatsız, kıskanç, sabırsız\n' +
+      'Burcunun Yönettiği ülkeler:  İngiltere, Filistin, Danimarka, Almanya, Japonya, İsveç, Suriye\n' +
+      'Burcunun Yönettiği şehirler: Berlin, Birmingham, Saragossa, Nepal',
+    luckyColor: 'Yıldızın: Mars\n' +
+      'Grubun: Ateş, Pozitif\n' +
+      'Niteliği: Öncü \n' +
+      'Burcunun cinsiyeti: Eril\n' +
+      'Yeteneğin: Canlılık ve hareket\n' +
+      'Seni sen yapan: Yeni girişimler, cesaret, atılganlık\n' +
+      'Hedeflerin: Öncülük, liderlik, yol göstericilik, yenilikçilik\n' +
+      'Sonuç: Başarı ve zafer\n' +
+      'Bastırman gereken huyun: Kesinlikle sabırsızlık, çabuk sinirlenmek \n' +
+      'Şanslı günün: Salı\n' +
+      'Şanslı sayıların: 7,
+    47,
+    87\n' +
+      'Şans getiren taşın: Pırlanta\n' +
+      ' Narçiçeği, Ateş kırmızısı ve kırmızının her tonu \n' +
+      'Sevdiğin Çiçekler: Sardunya, limon  çiçeği, manolya, lavanta çiçeği\n' +
+      'Bitkilerin: Lale, Gelincik, Nar çiçeği, papatya \n' +
+      'Müzik tarzın: Hızlı tempolu parçalar ve marşlar\n' +
+      'Vücutta temsil ettiğin bölgeler: Baş bölgesi ve yüzü temsil eder.\n' +
+      'Mevsimin: İlkbahar \n' +
+      'Olası Hastalıkların: Migren, yüze alınan darbeler, baş ağrısı, diş ağrısı, yüksek ateş, adele rahatsızlıkları, yüksek tansiyon, beyin iltihabı…\n' +
+      'Sağlına yararlı besinler: Pancar, marul, salatalık, ceviz, elma, limon, balık süt ve süt ürünleri\n' +
+      'Uzak durulması gereken besinler: Mayonez, soslar, makarna, kızartma ve yağlı yiyecekler\n' +
+      'Uyumlu Burç: Aslan ve Yay\n' +
+      'Karşıt Burcun: Terazi\n' +
+      'Başarılı olacağın meslekler: Politika, organizatörlük, yöneticilik, endüstri, mühendislik, işletmecilik, komutanlık, kimyacı, operatör, demir ve çelik işleri, makine, mizah ve fıkra yazarlığı, eleştirmenlik, ressamlık, müzik, konfeksiyonculuk.\n' +
+      'Olumlu özelliklerin: Pratik, lider ruhlu, bulunduğu ortamlarda rahatça sosyalleşen, cazibeli\n' +
+      'Olumsuz özelliklerin: Öfkeli, patavatsız, kıskanç, sabırsız\n' +
+      'Burcunun Yönettiği ülkeler:  İngiltere, Filistin, Danimarka, Almanya, Japonya, İsveç, Suriye\n' +
+      'Burcunun Yönettiği şehirler: Berlin, Birmingham, Saragossa, Nepal',
+    favoriteFlowers: 'Yıldızın: Mars\n' +
+      'Grubun: Ateş, Pozitif\n' +
+      'Niteliği: Öncü \n' +
+      'Burcunun cinsiyeti: Eril\n' +
+      'Yeteneğin: Canlılık ve hareket\n' +
+      'Seni sen yapan: Yeni girişimler, cesaret, atılganlık\n' +
+      'Hedeflerin: Öncülük, liderlik, yol göstericilik, yenilikçilik\n' +
+      'Sonuç: Başarı ve zafer\n' +
+      'Bastırman gereken huyun: Kesinlikle sabırsızlık, çabuk sinirlenmek \n' +
+      'Şanslı günün: Salı\n' +
+      'Şanslı sayıların: 7,
+    47,
+    87\n' +
+      'Şans getiren taşın: Pırlanta\n' +
+      'Şans getiren rengin: Narçiçeği, Ateş kırmızısı ve kırmızının her tonu \n' +
+      ' Sardunya, limon  çiçeği, manolya, lavanta çiçeği\n' +
+      'Bitkilerin: Lale, Gelincik, Nar çiçeği, papatya \n' +
+      'Müzik tarzın: Hızlı tempolu parçalar ve marşlar\n' +
+      'Vücutta temsil ettiğin bölgeler: Baş bölgesi ve yüzü temsil eder.\n' +
+      'Mevsimin: İlkbahar \n' +
+      'Olası Hastalıkların: Migren, yüze alınan darbeler, baş ağrısı, diş ağrısı, yüksek ateş, adele rahatsızlıkları, yüksek tansiyon, beyin iltihabı…\n' +
+      'Sağlına yararlı besinler: Pancar, marul, salatalık, ceviz, elma, limon, balık süt ve süt ürünleri\n' +
+      'Uzak durulması gereken besinler: Mayonez, soslar, makarna, kızartma ve yağlı yiyecekler\n' +
+      'Uyumlu Burç: Aslan ve Yay\n' +
+      'Karşıt Burcun: Terazi\n' +
+      'Başarılı olacağın meslekler: Politika, organizatörlük, yöneticilik, endüstri, mühendislik, işletmecilik, komutanlık, kimyacı, operatör, demir ve çelik işleri, makine, mizah ve fıkra yazarlığı, eleştirmenlik, ressamlık, müzik, konfeksiyonculuk.\n' +
+      'Olumlu özelliklerin: Pratik, lider ruhlu, bulunduğu ortamlarda rahatça sosyalleşen, cazibeli\n' +
+      'Olumsuz özelliklerin: Öfkeli, patavatsız, kıskanç, sabırsız\n' +
+      'Burcunun Yönettiği ülkeler:  İngiltere, Filistin, Danimarka, Almanya, Japonya, İsveç, Suriye\n' +
+      'Burcunun Yönettiği şehirler: Berlin, Birmingham, Saragossa, Nepal',
+    plants: 'Yıldızın: Mars\n' +
+      'Grubun: Ateş, Pozitif\n' +
+      'Niteliği: Öncü \n' +
+      'Burcunun cinsiyeti: Eril\n' +
+      'Yeteneğin: Canlılık ve hareket\n' +
+      'Seni sen yapan: Yeni girişimler, cesaret, atılganlık\n' +
+      'Hedeflerin: Öncülük, liderlik, yol göstericilik, yenilikçilik\n' +
+      'Sonuç: Başarı ve zafer\n' +
+      'Bastırman gereken huyun: Kesinlikle sabırsızlık, çabuk sinirlenmek \n' +
+      'Şanslı günün: Salı\n' +
+      'Şanslı sayıların: 7,
+    47,
+    87\n' +
+      'Şans getiren taşın: Pırlanta\n' +
+      'Şans getiren rengin: Narçiçeği, Ateş kırmızısı ve kırmızının her tonu \n' +
+      'Sevdiğin Çiçekler: Sardunya, limon  çiçeği, manolya, lavanta çiçeği\n' +
+      ' Lale, Gelincik, Nar çiçeği, papatya \n' +
+      'Müzik tarzın: Hızlı tempolu parçalar ve marşlar\n' +
+      'Vücutta temsil ettiğin bölgeler: Baş bölgesi ve yüzü temsil eder.\n' +
+      'Mevsimin: İlkbahar \n' +
+      'Olası Hastalıkların: Migren, yüze alınan darbeler, baş ağrısı, diş ağrısı, yüksek ateş, adele rahatsızlıkları, yüksek tansiyon, beyin iltihabı…\n' +
+      'Sağlına yararlı besinler: Pancar, marul, salatalık, ceviz, elma, limon, balık süt ve süt ürünleri\n' +
+      'Uzak durulması gereken besinler: Mayonez, soslar, makarna, kızartma ve yağlı yiyecekler\n' +
+      'Uyumlu Burç: Aslan ve Yay\n' +
+      'Karşıt Burcun: Terazi\n' +
+      'Başarılı olacağın meslekler: Politika, organizatörlük, yöneticilik, endüstri, mühendislik, işletmecilik, komutanlık, kimyacı, operatör, demir ve çelik işleri, makine, mizah ve fıkra yazarlığı, eleştirmenlik, ressamlık, müzik, konfeksiyonculuk.\n' +
+      'Olumlu özelliklerin: Pratik, lider ruhlu, bulunduğu ortamlarda rahatça sosyalleşen, cazibeli\n' +
+      'Olumsuz özelliklerin: Öfkeli, patavatsız, kıskanç, sabırsız\n' +
+      'Burcunun Yönettiği ülkeler:  İngiltere, Filistin, Danimarka, Almanya, Japonya, İsveç, Suriye\n' +
+      'Burcunun Yönettiği şehirler: Berlin, Birmingham, Saragossa, Nepal',
+    musicStyle: 'Yıldızın: Mars\n' +
+      'Grubun: Ateş, Pozitif\n' +
+      'Niteliği: Öncü \n' +
+      'Burcunun cinsiyeti: Eril\n' +
+      'Yeteneğin: Canlılık ve hareket\n' +
+      'Seni sen yapan: Yeni girişimler, cesaret, atılganlık\n' +
+      'Hedeflerin: Öncülük, liderlik, yol göstericilik, yenilikçilik\n' +
+      'Sonuç: Başarı ve zafer\n' +
+      'Bastırman gereken huyun: Kesinlikle sabırsızlık, çabuk sinirlenmek \n' +
+      'Şanslı günün: Salı\n' +
+      'Şanslı sayıların: 7,
+    47,
+    87\n' +
+      'Şans getiren taşın: Pırlanta\n' +
+      'Şans getiren rengin: Narçiçeği, Ateş kırmızısı ve kırmızının her tonu \n' +
+      'Sevdiğin Çiçekler: Sardunya, limon  çiçeği, manolya, lavanta çiçeği\n' +
+      'Bitkilerin: Lale, Gelincik, Nar çiçeği, papatya \n' +
+      ' Hızlı tempolu parçalar ve marşlar\n' +
+      'Vücutta temsil ettiğin bölgeler: Baş bölgesi ve yüzü temsil eder.\n' +
+      'Mevsimin: İlkbahar \n' +
+      'Olası Hastalıkların: Migren, yüze alınan darbeler, baş ağrısı, diş ağrısı, yüksek ateş, adele rahatsızlıkları, yüksek tansiyon, beyin iltihabı…\n' +
+      'Sağlına yararlı besinler: Pancar, marul, salatalık, ceviz, elma, limon, balık süt ve süt ürünleri\n' +
+      'Uzak durulması gereken besinler: Mayonez, soslar, makarna, kızartma ve yağlı yiyecekler\n' +
+      'Uyumlu Burç: Aslan ve Yay\n' +
+      'Karşıt Burcun: Terazi\n' +
+      'Başarılı olacağın meslekler: Politika, organizatörlük, yöneticilik, endüstri, mühendislik, işletmecilik, komutanlık, kimyacı, operatör, demir ve çelik işleri, makine, mizah ve fıkra yazarlığı, eleştirmenlik, ressamlık, müzik, konfeksiyonculuk.\n' +
+      'Olumlu özelliklerin: Pratik, lider ruhlu, bulunduğu ortamlarda rahatça sosyalleşen, cazibeli\n' +
+      'Olumsuz özelliklerin: Öfkeli, patavatsız, kıskanç, sabırsız\n' +
+      'Burcunun Yönettiği ülkeler:  İngiltere, Filistin, Danimarka, Almanya, Japonya, İsveç, Suriye\n' +
+      'Burcunun Yönettiği şehirler: Berlin, Birmingham, Saragossa, Nepal',
+    bodyParts: 'Yıldızın: Mars\n' +
+      'Grubun: Ateş, Pozitif\n' +
+      'Niteliği: Öncü \n' +
+      'Burcunun cinsiyeti: Eril\n' +
+      'Yeteneğin: Canlılık ve hareket\n' +
+      'Seni sen yapan: Yeni girişimler, cesaret, atılganlık\n' +
+      'Hedeflerin: Öncülük, liderlik, yol göstericilik, yenilikçilik\n' +
+      'Sonuç: Başarı ve zafer\n' +
+      'Bastırman gereken huyun: Kesinlikle sabırsızlık, çabuk sinirlenmek \n' +
+      'Şanslı günün: Salı\n' +
+      'Şanslı sayıların: 7,
+    47,
+    87\n' +
+      'Şans getiren taşın: Pırlanta\n' +
+      'Şans getiren rengin: Narçiçeği, Ateş kırmızısı ve kırmızının her tonu \n' +
+      'Sevdiğin Çiçekler: Sardunya, limon  çiçeği, manolya, lavanta çiçeği\n' +
+      'Bitkilerin: Lale, Gelincik, Nar çiçeği, papatya \n' +
+      'Müzik tarzın: Hızlı tempolu parçalar ve marşlar\n' +
+      ' Baş bölgesi ve yüzü temsil eder.\n' +
+      'Mevsimin: İlkbahar \n' +
+      'Olası Hastalıkların: Migren, yüze alınan darbeler, baş ağrısı, diş ağrısı, yüksek ateş, adele rahatsızlıkları, yüksek tansiyon, beyin iltihabı…\n' +
+      'Sağlına yararlı besinler: Pancar, marul, salatalık, ceviz, elma, limon, balık süt ve süt ürünleri\n' +
+      'Uzak durulması gereken besinler: Mayonez, soslar, makarna, kızartma ve yağlı yiyecekler\n' +
+      'Uyumlu Burç: Aslan ve Yay\n' +
+      'Karşıt Burcun: Terazi\n' +
+      'Başarılı olacağın meslekler: Politika, organizatörlük, yöneticilik, endüstri, mühendislik, işletmecilik, komutanlık, kimyacı, operatör, demir ve çelik işleri, makine, mizah ve fıkra yazarlığı, eleştirmenlik, ressamlık, müzik, konfeksiyonculuk.\n' +
+      'Olumlu özelliklerin: Pratik, lider ruhlu, bulunduğu ortamlarda rahatça sosyalleşen, cazibeli\n' +
+      'Olumsuz özelliklerin: Öfkeli, patavatsız, kıskanç, sabırsız\n' +
+      'Burcunun Yönettiği ülkeler:  İngiltere, Filistin, Danimarka, Almanya, Japonya, İsveç, Suriye\n' +
+      'Burcunun Yönettiği şehirler: Berlin, Birmingham, Saragossa, Nepal',
+    season: 'Yıldızın: Mars\n' +
+      'Grubun: Ateş, Pozitif\n' +
+      'Niteliği: Öncü \n' +
+      'Burcunun cinsiyeti: Eril\n' +
+      'Yeteneğin: Canlılık ve hareket\n' +
+      'Seni sen yapan: Yeni girişimler, cesaret, atılganlık\n' +
+      'Hedeflerin: Öncülük, liderlik, yol göstericilik, yenilikçilik\n' +
+      'Sonuç: Başarı ve zafer\n' +
+      'Bastırman gereken huyun: Kesinlikle sabırsızlık, çabuk sinirlenmek \n' +
+      'Şanslı günün: Salı\n' +
+      'Şanslı sayıların: 7,
+    47,
+    87\n' +
+      'Şans getiren taşın: Pırlanta\n' +
+      'Şans getiren rengin: Narçiçeği, Ateş kırmızısı ve kırmızının her tonu \n' +
+      'Sevdiğin Çiçekler: Sardunya, limon  çiçeği, manolya, lavanta çiçeği\n' +
+      'Bitkilerin: Lale, Gelincik, Nar çiçeği, papatya \n' +
+      'Müzik tarzın: Hızlı tempolu parçalar ve marşlar\n' +
+      'Vücutta temsil ettiğin bölgeler: Baş bölgesi ve yüzü temsil eder.\n' +
+      ' İlkbahar \n' +
+      'Olası Hastalıkların: Migren, yüze alınan darbeler, baş ağrısı, diş ağrısı, yüksek ateş, adele rahatsızlıkları, yüksek tansiyon, beyin iltihabı…\n' +
+      'Sağlına yararlı besinler: Pancar, marul, salatalık, ceviz, elma, limon, balık süt ve süt ürünleri\n' +
+      'Uzak durulması gereken besinler: Mayonez, soslar, makarna, kızartma ve yağlı yiyecekler\n' +
+      'Uyumlu Burç: Aslan ve Yay\n' +
+      'Karşıt Burcun: Terazi\n' +
+      'Başarılı olacağın meslekler: Politika, organizatörlük, yöneticilik, endüstri, mühendislik, işletmecilik, komutanlık, kimyacı, operatör, demir ve çelik işleri, makine, mizah ve fıkra yazarlığı, eleştirmenlik, ressamlık, müzik, konfeksiyonculuk.\n' +
+      'Olumlu özelliklerin: Pratik, lider ruhlu, bulunduğu ortamlarda rahatça sosyalleşen, cazibeli\n' +
+      'Olumsuz özelliklerin: Öfkeli, patavatsız, kıskanç, sabırsız\n' +
+      'Burcunun Yönettiği ülkeler:  İngiltere, Filistin, Danimarka, Almanya, Japonya, İsveç, Suriye\n' +
+      'Burcunun Yönettiği şehirler: Berlin, Birmingham, Saragossa, Nepal',
+    potentialIllnesses: 'Yıldızın: Mars\n' +
+      'Grubun: Ateş, Pozitif\n' +
+      'Niteliği: Öncü \n' +
+      'Burcunun cinsiyeti: Eril\n' +
+      'Yeteneğin: Canlılık ve hareket\n' +
+      'Seni sen yapan: Yeni girişimler, cesaret, atılganlık\n' +
+      'Hedeflerin: Öncülük, liderlik, yol göstericilik, yenilikçilik\n' +
+      'Sonuç: Başarı ve zafer\n' +
+      'Bastırman gereken huyun: Kesinlikle sabırsızlık, çabuk sinirlenmek \n' +
+      'Şanslı günün: Salı\n' +
+      'Şanslı sayıların: 7,
+    47,
+    87\n' +
+      'Şans getiren taşın: Pırlanta\n' +
+      'Şans getiren rengin: Narçiçeği, Ateş kırmızısı ve kırmızının her tonu \n' +
+      'Sevdiğin Çiçekler: Sardunya, limon  çiçeği, manolya, lavanta çiçeği\n' +
+      'Bitkilerin: Lale, Gelincik, Nar çiçeği, papatya \n' +
+      'Müzik tarzın: Hızlı tempolu parçalar ve marşlar\n' +
+      'Vücutta temsil ettiğin bölgeler: Baş bölgesi ve yüzü temsil eder.\n' +
+      'Mevsimin: İlkbahar \n' +
+      ' Migren, yüze alınan darbeler, baş ağrısı, diş ağrısı, yüksek ateş, adele rahatsızlıkları, yüksek tansiyon, beyin iltihabı…\n' +
+      'Sağlına yararlı besinler: Pancar, marul, salatalık, ceviz, elma, limon, balık süt ve süt ürünleri\n' +
+      'Uzak durulması gereken besinler: Mayonez, soslar, makarna, kızartma ve yağlı yiyecekler\n' +
+      'Uyumlu Burç: Aslan ve Yay\n' +
+      'Karşıt Burcun: Terazi\n' +
+      'Başarılı olacağın meslekler: Politika, organizatörlük, yöneticilik, endüstri, mühendislik, işletmecilik, komutanlık, kimyacı, operatör, demir ve çelik işleri, makine, mizah ve fıkra yazarlığı, eleştirmenlik, ressamlık, müzik, konfeksiyonculuk.\n' +
+      'Olumlu özelliklerin: Pratik, lider ruhlu, bulunduğu ortamlarda rahatça sosyalleşen, cazibeli\n' +
+      'Olumsuz özelliklerin: Öfkeli, patavatsız, kıskanç, sabırsız\n' +
+      'Burcunun Yönettiği ülkeler:  İngiltere, Filistin, Danimarka, Almanya, Japonya, İsveç, Suriye\n' +
+      'Burcunun Yönettiği şehirler: Berlin, Birmingham, Saragossa, Nepal',
+    healthyFoods: 'Yıldızın: Mars\n' +
+      'Grubun: Ateş, Pozitif\n' +
+      'Niteliği: Öncü \n' +
+      'Burcunun cinsiyeti: Eril\n' +
+      'Yeteneğin: Canlılık ve hareket\n' +
+      'Seni sen yapan: Yeni girişimler, cesaret, atılganlık\n' +
+      'Hedeflerin: Öncülük, liderlik, yol göstericilik, yenilikçilik\n' +
+      'Sonuç: Başarı ve zafer\n' +
+      'Bastırman gereken huyun: Kesinlikle sabırsızlık, çabuk sinirlenmek \n' +
+      'Şanslı günün: Salı\n' +
+      'Şanslı sayıların: 7,
+    47,
+    87\n' +
+      'Şans getiren taşın: Pırlanta\n' +
+      'Şans getiren rengin: Narçiçeği, Ateş kırmızısı ve kırmızının her tonu \n' +
+      'Sevdiğin Çiçekler: Sardunya, limon  çiçeği, manolya, lavanta çiçeği\n' +
+      'Bitkilerin: Lale, Gelincik, Nar çiçeği, papatya \n' +
+      'Müzik tarzın: Hızlı tempolu parçalar ve marşlar\n' +
+      'Vücutta temsil ettiğin bölgeler: Baş bölgesi ve yüzü temsil eder.\n' +
+      'Mevsimin: İlkbahar \n' +
+      'Olası Hastalıkların: Migren, yüze alınan darbeler, baş ağrısı, diş ağrısı, yüksek ateş, adele rahatsızlıkları, yüksek tansiyon, beyin iltihabı…\n' +
+      ' Pancar, marul, salatalık, ceviz, elma, limon, balık süt ve süt ürünleri\n' +
+      'Uzak durulması gereken besinler: Mayonez, soslar, makarna, kızartma ve yağlı yiyecekler\n' +
+      'Uyumlu Burç: Aslan ve Yay\n' +
+      'Karşıt Burcun: Terazi\n' +
+      'Başarılı olacağın meslekler: Politika, organizatörlük, yöneticilik, endüstri, mühendislik, işletmecilik, komutanlık, kimyacı, operatör, demir ve çelik işleri, makine, mizah ve fıkra yazarlığı, eleştirmenlik, ressamlık, müzik, konfeksiyonculuk.\n' +
+      'Olumlu özelliklerin: Pratik, lider ruhlu, bulunduğu ortamlarda rahatça sosyalleşen, cazibeli\n' +
+      'Olumsuz özelliklerin: Öfkeli, patavatsız, kıskanç, sabırsız\n' +
+      'Burcunun Yönettiği ülkeler:  İngiltere, Filistin, Danimarka, Almanya, Japonya, İsveç, Suriye\n' +
+      'Burcunun Yönettiği şehirler: Berlin, Birmingham, Saragossa, Nepal',
+    foodsToAvoid: 'Yıldızın: Mars\n' +
+      'Grubun: Ateş, Pozitif\n' +
+      'Niteliği: Öncü \n' +
+      'Burcunun cinsiyeti: Eril\n' +
+      'Yeteneğin: Canlılık ve hareket\n' +
+      'Seni sen yapan: Yeni girişimler, cesaret, atılganlık\n' +
+      'Hedeflerin: Öncülük, liderlik, yol göstericilik, yenilikçilik\n' +
+      'Sonuç: Başarı ve zafer\n' +
+      'Bastırman gereken huyun: Kesinlikle sabırsızlık, çabuk sinirlenmek \n' +
+      'Şanslı günün: Salı\n' +
+      'Şanslı sayıların: 7,
+    47,
+    87\n' +
+      'Şans getiren taşın: Pırlanta\n' +
+      'Şans getiren rengin: Narçiçeği, Ateş kırmızısı ve kırmızının her tonu \n' +
+      'Sevdiğin Çiçekler: Sardunya, limon  çiçeği, manolya, lavanta çiçeği\n' +
+      'Bitkilerin: Lale, Gelincik, Nar çiçeği, papatya \n' +
+      'Müzik tarzın: Hızlı tempolu parçalar ve marşlar\n' +
+      'Vücutta temsil ettiğin bölgeler: Baş bölgesi ve yüzü temsil eder.\n' +
+      'Mevsimin: İlkbahar \n' +
+      'Olası Hastalıkların: Migren, yüze alınan darbeler, baş ağrısı, diş ağrısı, yüksek ateş, adele rahatsızlıkları, yüksek tansiyon, beyin iltihabı…\n' +
+      'Sağlına yararlı besinler: Pancar, marul, salatalık, ceviz, elma, limon, balık süt ve süt ürünleri\n' +
+      ' Mayonez, soslar, makarna, kızartma ve yağlı yiyecekler\n' +
+      'Uyumlu Burç: Aslan ve Yay\n' +
+      'Karşıt Burcun: Terazi\n' +
+      'Başarılı olacağın meslekler: Politika, organizatörlük, yöneticilik, endüstri, mühendislik, işletmecilik, komutanlık, kimyacı, operatör, demir ve çelik işleri, makine, mizah ve fıkra yazarlığı, eleştirmenlik, ressamlık, müzik, konfeksiyonculuk.\n' +
+      'Olumlu özelliklerin: Pratik, lider ruhlu, bulunduğu ortamlarda rahatça sosyalleşen, cazibeli\n' +
+      'Olumsuz özelliklerin: Öfkeli, patavatsız, kıskanç, sabırsız\n' +
+      'Burcunun Yönettiği ülkeler:  İngiltere, Filistin, Danimarka, Almanya, Japonya, İsveç, Suriye\n' +
+      'Burcunun Yönettiği şehirler: Berlin, Birmingham, Saragossa, Nepal',
+    compatibleSign: 'Yıldızın: Mars\n' +
+      'Grubun: Ateş, Pozitif\n' +
+      'Niteliği: Öncü \n' +
+      'Burcunun cinsiyeti: Eril\n' +
+      'Yeteneğin: Canlılık ve hareket\n' +
+      'Seni sen yapan: Yeni girişimler, cesaret, atılganlık\n' +
+      'Hedeflerin: Öncülük, liderlik, yol göstericilik, yenilikçilik\n' +
+      'Sonuç: Başarı ve zafer\n' +
+      'Bastırman gereken huyun: Kesinlikle sabırsızlık, çabuk sinirlenmek \n' +
+      'Şanslı günün: Salı\n' +
+      'Şanslı sayıların: 7,
+    47,
+    87\n' +
+      'Şans getiren taşın: Pırlanta\n' +
+      'Şans getiren rengin: Narçiçeği, Ateş kırmızısı ve kırmızının her tonu \n' +
+      'Sevdiğin Çiçekler: Sardunya, limon  çiçeği, manolya, lavanta çiçeği\n' +
+      'Bitkilerin: Lale, Gelincik, Nar çiçeği, papatya \n' +
+      'Müzik tarzın: Hızlı tempolu parçalar ve marşlar\n' +
+      'Vücutta temsil ettiğin bölgeler: Baş bölgesi ve yüzü temsil eder.\n' +
+      'Mevsimin: İlkbahar \n' +
+      'Olası Hastalıkların: Migren, yüze alınan darbeler, baş ağrısı, diş ağrısı, yüksek ateş, adele rahatsızlıkları, yüksek tansiyon, beyin iltihabı…\n' +
+      'Sağlına yararlı besinler: Pancar, marul, salatalık, ceviz, elma, limon, balık süt ve süt ürünleri\n' +
+      'Uzak durulması gereken besinler: Mayonez, soslar, makarna, kızartma ve yağlı yiyecekler\n' +
+      ' Aslan ve Yay\n' +
+      'Karşıt Burcun: Terazi\n' +
+      'Başarılı olacağın meslekler: Politika, organizatörlük, yöneticilik, endüstri, mühendislik, işletmecilik, komutanlık, kimyacı, operatör, demir ve çelik işleri, makine, mizah ve fıkra yazarlığı, eleştirmenlik, ressamlık, müzik, konfeksiyonculuk.\n' +
+      'Olumlu özelliklerin: Pratik, lider ruhlu, bulunduğu ortamlarda rahatça sosyalleşen, cazibeli\n' +
+      'Olumsuz özelliklerin: Öfkeli, patavatsız, kıskanç, sabırsız\n' +
+      'Burcunun Yönettiği ülkeler:  İngiltere, Filistin, Danimarka, Almanya, Japonya, İsveç, Suriye\n' +
+      'Burcunun Yönettiği şehirler: Berlin, Birmingham, Saragossa, Nepal',
+    opposingSign: 'Yıldızın: Mars\n' +
+      'Grubun: Ateş, Pozitif\n' +
+      'Niteliği: Öncü \n' +
+      'Burcunun cinsiyeti: Eril\n' +
+      'Yeteneğin: Canlılık ve hareket\n' +
+      'Seni sen yapan: Yeni girişimler, cesaret, atılganlık\n' +
+      'Hedeflerin: Öncülük, liderlik, yol göstericilik, yenilikçilik\n' +
+      'Sonuç: Başarı ve zafer\n' +
+      'Bastırman gereken huyun: Kesinlikle sabırsızlık, çabuk sinirlenmek \n' +
+      'Şanslı günün: Salı\n' +
+      'Şanslı sayıların: 7,
+    47,
+    87\n' +
+      'Şans getiren taşın: Pırlanta\n' +
+      'Şans getiren rengin: Narçiçeği, Ateş kırmızısı ve kırmızının her tonu \n' +
+      'Sevdiğin Çiçekler: Sardunya, limon  çiçeği, manolya, lavanta çiçeği\n' +
+      'Bitkilerin: Lale, Gelincik, Nar çiçeği, papatya \n' +
+      'Müzik tarzın: Hızlı tempolu parçalar ve marşlar\n' +
+      'Vücutta temsil ettiğin bölgeler: Baş bölgesi ve yüzü temsil eder.\n' +
+      'Mevsimin: İlkbahar \n' +
+      'Olası Hastalıkların: Migren, yüze alınan darbeler, baş ağrısı, diş ağrısı, yüksek ateş, adele rahatsızlıkları, yüksek tansiyon, beyin iltihabı…\n' +
+      'Sağlına yararlı besinler: Pancar, marul, salatalık, ceviz, elma, limon, balık süt ve süt ürünleri\n' +
+      'Uzak durulması gereken besinler: Mayonez, soslar, makarna, kızartma ve yağlı yiyecekler\n' +
+      'Uyumlu Burç: Aslan ve Yay\n' +
+      ' Terazi\n' +
+      'Başarılı olacağın meslekler: Politika, organizatörlük, yöneticilik, endüstri, mühendislik, işletmecilik, komutanlık, kimyacı, operatör, demir ve çelik işleri, makine, mizah ve fıkra yazarlığı, eleştirmenlik, ressamlık, müzik, konfeksiyonculuk.\n' +
+      'Olumlu özelliklerin: Pratik, lider ruhlu, bulunduğu ortamlarda rahatça sosyalleşen, cazibeli\n' +
+      'Olumsuz özelliklerin: Öfkeli, patavatsız, kıskanç, sabırsız\n' +
+      'Burcunun Yönettiği ülkeler:  İngiltere, Filistin, Danimarka, Almanya, Japonya, İsveç, Suriye\n' +
+      'Burcunun Yönettiği şehirler: Berlin, Birmingham, Saragossa, Nepal',
+    successfulCareers: 'Yıldızın: Mars\n' +
+      'Grubun: Ateş, Pozitif\n' +
+      'Niteliği: Öncü \n' +
+      'Burcunun cinsiyeti: Eril\n' +
+      'Yeteneğin: Canlılık ve hareket\n' +
+      'Seni sen yapan: Yeni girişimler, cesaret, atılganlık\n' +
+      'Hedeflerin: Öncülük, liderlik, yol göstericilik, yenilikçilik\n' +
+      'Sonuç: Başarı ve zafer\n' +
+      'Bastırman gereken huyun: Kesinlikle sabırsızlık, çabuk sinirlenmek \n' +
+      'Şanslı günün: Salı\n' +
+      'Şanslı sayıların: 7,
+    47,
+    87\n' +
+      'Şans getiren taşın: Pırlanta\n' +
+      'Şans getiren rengin: Narçiçeği, Ateş kırmızısı ve kırmızının her tonu \n' +
+      'Sevdiğin Çiçekler: Sardunya, limon  çiçeği, manolya, lavanta çiçeği\n' +
+      'Bitkilerin: Lale, Gelincik, Nar çiçeği, papatya \n' +
+      'Müzik tarzın: Hızlı tempolu parçalar ve marşlar\n' +
+      'Vücutta temsil ettiğin bölgeler: Baş bölgesi ve yüzü temsil eder.\n' +
+      'Mevsimin: İlkbahar \n' +
+      'Olası Hastalıkların: Migren, yüze alınan darbeler, baş ağrısı, diş ağrısı, yüksek ateş, adele rahatsızlıkları, yüksek tansiyon, beyin iltihabı…\n' +
+      'Sağlına yararlı besinler: Pancar, marul, salatalık, ceviz, elma, limon, balık süt ve süt ürünleri\n' +
+      'Uzak durulması gereken besinler: Mayonez, soslar, makarna, kızartma ve yağlı yiyecekler\n' +
+      'Uyumlu Burç: Aslan ve Yay\n' +
+      'Karşıt Burcun: Terazi\n' +
+      ' Politika, organizatörlük, yöneticilik, endüstri, mühendislik, işletmecilik, komutanlık, kimyacı, operatör, demir ve çelik işleri, makine, mizah ve fıkra yazarlığı, eleştirmenlik, ressamlık, müzik, konfeksiyonculuk.\n' +
+      'Olumlu özelliklerin: Pratik, lider ruhlu, bulunduğu ortamlarda rahatça sosyalleşen, cazibeli\n' +
+      'Olumsuz özelliklerin: Öfkeli, patavatsız, kıskanç, sabırsız\n' +
+      'Burcunun Yönettiği ülkeler:  İngiltere, Filistin, Danimarka, Almanya, Japonya, İsveç, Suriye\n' +
+      'Burcunun Yönettiği şehirler: Berlin, Birmingham, Saragossa, Nepal',
+    positiveTraits: 'Yıldızın: Mars\n' +
+      'Grubun: Ateş, Pozitif\n' +
+      'Niteliği: Öncü \n' +
+      'Burcunun cinsiyeti: Eril\n' +
+      'Yeteneğin: Canlılık ve hareket\n' +
+      'Seni sen yapan: Yeni girişimler, cesaret, atılganlık\n' +
+      'Hedeflerin: Öncülük, liderlik, yol göstericilik, yenilikçilik\n' +
+      'Sonuç: Başarı ve zafer\n' +
+      'Bastırman gereken huyun: Kesinlikle sabırsızlık, çabuk sinirlenmek \n' +
+      'Şanslı günün: Salı\n' +
+      'Şanslı sayıların: 7,
+    47,
+    87\n' +
+      'Şans getiren taşın: Pırlanta\n' +
+      'Şans getiren rengin: Narçiçeği, Ateş kırmızısı ve kırmızının her tonu \n' +
+      'Sevdiğin Çiçekler: Sardunya, limon  çiçeği, manolya, lavanta çiçeği\n' +
+      'Bitkilerin: Lale, Gelincik, Nar çiçeği, papatya \n' +
+      'Müzik tarzın: Hızlı tempolu parçalar ve marşlar\n' +
+      'Vücutta temsil ettiğin bölgeler: Baş bölgesi ve yüzü temsil eder.\n' +
+      'Mevsimin: İlkbahar \n' +
+      'Olası Hastalıkların: Migren, yüze alınan darbeler, baş ağrısı, diş ağrısı, yüksek ateş, adele rahatsızlıkları, yüksek tansiyon, beyin iltihabı…\n' +
+      'Sağlına yararlı besinler: Pancar, marul, salatalık, ceviz, elma, limon, balık süt ve süt ürünleri\n' +
+      'Uzak durulması gereken besinler: Mayonez, soslar, makarna, kızartma ve yağlı yiyecekler\n' +
+      'Uyumlu Burç: Aslan ve Yay\n' +
+      'Karşıt Burcun: Terazi\n' +
+      'Başarılı olacağın meslekler: Politika, organizatörlük, yöneticilik, endüstri, mühendislik, işletmecilik, komutanlık, kimyacı, operatör, demir ve çelik işleri, makine, mizah ve fıkra yazarlığı, eleştirmenlik, ressamlık, müzik, konfeksiyonculuk.\n' +
+      ' Pratik, lider ruhlu, bulunduğu ortamlarda rahatça sosyalleşen, cazibeli\n' +
+      'Olumsuz özelliklerin: Öfkeli, patavatsız, kıskanç, sabırsız\n' +
+      'Burcunun Yönettiği ülkeler:  İngiltere, Filistin, Danimarka, Almanya, Japonya, İsveç, Suriye\n' +
+      'Burcunun Yönettiği şehirler: Berlin, Birmingham, Saragossa, Nepal',
+    negativeTraits: 'Yıldızın: Mars\n' +
+      'Grubun: Ateş, Pozitif\n' +
+      'Niteliği: Öncü \n' +
+      'Burcunun cinsiyeti: Eril\n' +
+      'Yeteneğin: Canlılık ve hareket\n' +
+      'Seni sen yapan: Yeni girişimler, cesaret, atılganlık\n' +
+      'Hedeflerin: Öncülük, liderlik, yol göstericilik, yenilikçilik\n' +
+      'Sonuç: Başarı ve zafer\n' +
+      'Bastırman gereken huyun: Kesinlikle sabırsızlık, çabuk sinirlenmek \n' +
+      'Şanslı günün: Salı\n' +
+      'Şanslı sayıların: 7,
+    47,
+    87\n' +
+      'Şans getiren taşın: Pırlanta\n' +
+      'Şans getiren rengin: Narçiçeği, Ateş kırmızısı ve kırmızının her tonu \n' +
+      'Sevdiğin Çiçekler: Sardunya, limon  çiçeği, manolya, lavanta çiçeği\n' +
+      'Bitkilerin: Lale, Gelincik, Nar çiçeği, papatya \n' +
+      'Müzik tarzın: Hızlı tempolu parçalar ve marşlar\n' +
+      'Vücutta temsil ettiğin bölgeler: Baş bölgesi ve yüzü temsil eder.\n' +
+      'Mevsimin: İlkbahar \n' +
+      'Olası Hastalıkların: Migren, yüze alınan darbeler, baş ağrısı, diş ağrısı, yüksek ateş, adele rahatsızlıkları, yüksek tansiyon, beyin iltihabı…\n' +
+      'Sağlına yararlı besinler: Pancar, marul, salatalık, ceviz, elma, limon, balık süt ve süt ürünleri\n' +
+      'Uzak durulması gereken besinler: Mayonez, soslar, makarna, kızartma ve yağlı yiyecekler\n' +
+      'Uyumlu Burç: Aslan ve Yay\n' +
+      'Karşıt Burcun: Terazi\n' +
+      'Başarılı olacağın meslekler: Politika, organizatörlük, yöneticilik, endüstri, mühendislik, işletmecilik, komutanlık, kimyacı, operatör, demir ve çelik işleri, makine, mizah ve fıkra yazarlığı, eleştirmenlik, ressamlık, müzik, konfeksiyonculuk.\n' +
+      'Olumlu özelliklerin: Pratik, lider ruhlu, bulunduğu ortamlarda rahatça sosyalleşen, cazibeli\n' +
+      ' Öfkeli, patavatsız, kıskanç, sabırsız\n' +
+      'Burcunun Yönettiği ülkeler:  İngiltere, Filistin, Danimarka, Almanya, Japonya, İsveç, Suriye\n' +
+      'Burcunun Yönettiği şehirler: Berlin, Birmingham, Saragossa, Nepal',
+    rulingCountries: 'Yıldızın: Mars\n' +
+      'Grubun: Ateş, Pozitif\n' +
+      'Niteliği: Öncü \n' +
+      'Burcunun cinsiyeti: Eril\n' +
+      'Yeteneğin: Canlılık ve hareket\n' +
+      'Seni sen yapan: Yeni girişimler, cesaret, atılganlık\n' +
+      'Hedeflerin: Öncülük, liderlik, yol göstericilik, yenilikçilik\n' +
+      'Sonuç: Başarı ve zafer\n' +
+      'Bastırman gereken huyun: Kesinlikle sabırsızlık, çabuk sinirlenmek \n' +
+      'Şanslı günün: Salı\n' +
+      'Şanslı sayıların: 7,
+    47,
+    87\n' +
+      'Şans getiren taşın: Pırlanta\n' +
+      'Şans getiren rengin: Narçiçeği, Ateş kırmızısı ve kırmızının her tonu \n' +
+      'Sevdiğin Çiçekler: Sardunya, limon  çiçeği, manolya, lavanta çiçeği\n' +
+      'Bitkilerin: Lale, Gelincik, Nar çiçeği, papatya \n' +
+      'Müzik tarzın: Hızlı tempolu parçalar ve marşlar\n' +
+      'Vücutta temsil ettiğin bölgeler: Baş bölgesi ve yüzü temsil eder.\n' +
+      'Mevsimin: İlkbahar \n' +
+      'Olası Hastalıkların: Migren, yüze alınan darbeler, baş ağrısı, diş ağrısı, yüksek ateş, adele rahatsızlıkları, yüksek tansiyon, beyin iltihabı…\n' +
+      'Sağlına yararlı besinler: Pancar, marul, salatalık, ceviz, elma, limon, balık süt ve süt ürünleri\n' +
+      'Uzak durulması gereken besinler: Mayonez, soslar, makarna, kızartma ve yağlı yiyecekler\n' +
+      'Uyumlu Burç: Aslan ve Yay\n' +
+      'Karşıt Burcun: Terazi\n' +
+      'Başarılı olacağın meslekler: Politika, organizatörlük, yöneticilik, endüstri, mühendislik, işletmecilik, komutanlık, kimyacı, operatör, demir ve çelik işleri, makine, mizah ve fıkra yazarlığı, eleştirmenlik, ressamlık, müzik, konfeksiyonculuk.\n' +
+      'Olumlu özelliklerin: Pratik, lider ruhlu, bulunduğu ortamlarda rahatça sosyalleşen, cazibeli\n' +
+      'Olumsuz özelliklerin: Öfkeli, patavatsız, kıskanç, sabırsız\n' +
+      '  İngiltere, Filistin, Danimarka, Almanya, Japonya, İsveç, Suriye\n' +
+      'Burcunun Yönettiği şehirler: Berlin, Birmingham, Saragossa, Nepal',
+    rulingCities: 'Yıldızın: Mars\n' +
+      'Grubun: Ateş, Pozitif\n' +
+      'Niteliği: Öncü \n' +
+      'Burcunun cinsiyeti: Eril\n' +
+      'Yeteneğin: Canlılık ve hareket\n' +
+      'Seni sen yapan: Yeni girişimler, cesaret, atılganlık\n' +
+      'Hedeflerin: Öncülük, liderlik, yol göstericilik, yenilikçilik\n' +
+      'Sonuç: Başarı ve zafer\n' +
+      'Bastırman gereken huyun: Kesinlikle sabırsızlık, çabuk sinirlenmek \n' +
+      'Şanslı günün: Salı\n' +
+      'Şanslı sayıların: 7,
+    47,
+    87\n' +
+      'Şans getiren taşın: Pırlanta\n' +
+      'Şans getiren rengin: Narçiçeği, Ateş kırmızısı ve kırmızının her tonu \n' +
+      'Sevdiğin Çiçekler: Sardunya, limon  çiçeği, manolya, lavanta çiçeği\n' +
+      'Bitkilerin: Lale, Gelincik, Nar çiçeği, papatya \n' +
+      'Müzik tarzın: Hızlı tempolu parçalar ve marşlar\n' +
+      'Vücutta temsil ettiğin bölgeler: Baş bölgesi ve yüzü temsil eder.\n' +
+      'Mevsimin: İlkbahar \n' +
+      'Olası Hastalıkların: Migren, yüze alınan darbeler, baş ağrısı, diş ağrısı, yüksek ateş, adele rahatsızlıkları, yüksek tansiyon, beyin iltihabı…\n' +
+      'Sağlına yararlı besinler: Pancar, marul, salatalık, ceviz, elma, limon, balık süt ve süt ürünleri\n' +
+      'Uzak durulması gereken besinler: Mayonez, soslar, makarna, kızartma ve yağlı yiyecekler\n' +
+      'Uyumlu Burç: Aslan ve Yay\n' +
+      'Karşıt Burcun: Terazi\n' +
+      'Başarılı olacağın meslekler: Politika, organizatörlük, yöneticilik, endüstri, mühendislik, işletmecilik, komutanlık, kimyacı, operatör, demir ve çelik işleri, makine, mizah ve fıkra yazarlığı, eleştirmenlik, ressamlık, müzik, konfeksiyonculuk.\n' +
+      'Olumlu özelliklerin: Pratik, lider ruhlu, bulunduğu ortamlarda rahatça sosyalleşen, cazibeli\n' +
+      'Olumsuz özelliklerin: Öfkeli, patavatsız, kıskanç, sabırsız\n' +
+      'Burcunun Yönettiği ülkeler:  İngiltere, Filistin, Danimarka, Almanya, Japonya, İsveç, Suriye\n' +
+      ' Berlin, Birmingham, Saragossa, Nepal'
+}

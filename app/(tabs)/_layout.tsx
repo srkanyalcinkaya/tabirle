@@ -81,11 +81,11 @@ export default function TabsLayout() {
                 }}
             />
             <Tabs.Screen
-                name="settings"
+                name="astrology"
                 options={{
-                    title: 'Settings',
+                    title: 'Astrology',
                     tabBarIcon: ({ color, focused }) => (
-                        <TabIcon icon={focused ? "user" : "user-outline"} color={color} focused={focused} name="Home" />
+                        <TabIcon icon={focused ? "astrology" : "astrology-outline"} color={color} focused={focused} name="Home" />
                     ),
                 }}
 

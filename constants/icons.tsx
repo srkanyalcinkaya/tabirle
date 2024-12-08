@@ -1,4 +1,4 @@
-import { Compatibility, CompatibilityOutline, Home, HomeOutline, Tabirle, Tarot, TarotOutline, User, UserOutline } from "@/components/icons";
+import { Astrology, AstrologyOutline, Compatibility, CompatibilityOutline, Home, HomeOutline, Tabirle, Tarot, TarotOutline, User, UserOutline } from "@/components/icons";
 
 export const icons = {
     home: <Home />,
@@ -10,4 +10,6 @@ export const icons = {
     user: <User />,
     "user-outline": <UserOutline />,
     tabirle: <Tabirle />,
+    "astrology-outline": <AstrologyOutline />,
+    astrology: <Astrology />,
 };

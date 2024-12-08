@@ -1,5 +1,5 @@
 import * as React from "react"
-import Svg, { Path, Defs, LinearGradient, Stop, Mask, ClipPath, G, Rect } from "react-native-svg"
+import Svg, { Path, Defs, LinearGradient, Stop, Mask, ClipPath, G, Rect, Circle } from "react-native-svg"
 const CompatibilityIcon = (props: any) => (
     <Svg
         xmlns="http://www.w3.org/2000/svg"
@@ -158,7 +158,7 @@ const HomeOutline = (props: any) => (
         fill="none"
         {...props}
     >
-        <G fill="#C8C8C8" clipPath="url(#a)">
+        <G fill="#fff" clipPath="url(#a)">
             <Path d="M22.16 15.454a63.852 63.852 0 0 1-4.035 4.42 63.771 63.771 0 0 1-4.42 4.035c.098.004.196.008.295.008a8.176 8.176 0 0 0 8.167-8.167c0-.1-.004-.197-.008-.296Zm3.39-11.253c-1.131-1.132-3.203-.73-6.334 1.226a37.391 37.391 0 0 0-3.332 2.377 8.161 8.161 0 0 0-9.829 9.83 37.344 37.344 0 0 0-2.377 3.33C1.721 24.097 1.319 26.169 2.45 27.3a2.21 2.21 0 0 0 1.638.625c1.162 0 2.718-.615 4.696-1.852 2.566-1.604 5.59-4.098 8.515-7.023 2.926-2.924 5.42-5.949 7.023-8.514C26.28 7.404 26.681 5.332 25.55 4.2Zm-3.553 5.638c-1.518 2.301-3.772 4.987-6.347 7.56-2.574 2.575-5.26 4.83-7.56 6.348-2.266 1.494-3.486 1.833-3.935 1.849.016-.449.354-1.67 1.849-3.934.33-.502.7-1.023 1.096-1.557.43.68.957 1.292 1.564 1.82a53.977 53.977 0 0 0 6.161-5.35 53.993 53.993 0 0 0 5.35-6.16 8.238 8.238 0 0 0-1.82-1.566 33.936 33.936 0 0 1 1.556-1.096c2.265-1.494 3.486-1.833 3.935-1.849-.016.449-.355 1.67-1.85 3.934h.002ZM3.5 4.667a2.92 2.92 0 0 1 2.917 2.916.583.583 0 1 0 1.166 0A2.92 2.92 0 0 1 10.5 4.667a.583.583 0 0 0 0-1.167A2.92 2.92 0 0 1 7.583.583a.583.583 0 0 0-1.166 0A2.92 2.92 0 0 1 3.5 3.5a.583.583 0 0 0 0 1.167ZM22.167 25.667a1.167 1.167 0 1 0 0-2.334 1.167 1.167 0 0 0 0 2.334ZM2.333 16.333a1.167 1.167 0 1 0 0-2.333 1.167 1.167 0 0 0 0 2.333ZM25.667 15.167a1.167 1.167 0 1 0 0-2.334 1.167 1.167 0 0 0 0 2.334Z" />
         </G>
         <Defs>
@@ -444,7 +444,271 @@ const Tabirle = (props: any) => (
     </Svg>
 )
 
+const Astrology = (props: any) => (
+    <Svg
+        xmlns="http://www.w3.org/2000/svg"
+        width={28}
+        height={28}
+        fill="none"
+        {...props}
+    >
+        <G clipPath="url(#a)">
+            <Path
+                fill="url(#b)"
+                d="M16.15 15.557a2.736 2.736 0 0 1-1.784-4.81 3.31 3.31 0 1 0 2.75 4.633c-.3.114-.626.177-.967.177Z"
+            />
+            <Path
+                fill="url(#c)"
+                d="M15.282 16.627A3.31 3.31 0 0 1 13 10.919a3.31 3.31 0 0 0 1.087 6.437c.884 0 1.686-.347 2.28-.912-.34.118-.706.183-1.086.183Z"
+                opacity={0.2}
+            />
+            <Path
+                fill="url(#d)"
+                d="M14 27.558C6.524 27.558.442 21.476.442 14S6.524.442 14 .442 27.558 6.524 27.558 14 21.476 27.558 14 27.558Zm10.7-9.949c.383-1.134.59-2.348.59-3.609 0-6.226-5.064-11.29-11.29-11.29C7.774 2.71 2.71 7.773 2.71 14c0 6.226 5.064 11.29 11.29 11.29 4.46 0 8.325-2.599 10.158-6.362"
+            />
+            <Path
+                fill="url(#e)"
+                d="M14 28C6.28 28 0 21.72 0 14S6.28 0 14 0s14 6.28 14 14-6.28 14-14 14ZM14 .884C6.768.884.884 6.768.884 14c0 7.232 5.884 13.116 13.116 13.116 7.232 0 13.116-5.884 13.116-13.116C27.116 6.768 21.232.884 14 .884Zm0 24.849C7.53 25.733 2.267 20.469 2.267 14 2.267 7.53 7.531 2.267 14 2.267c6.47 0 11.733 5.263 11.733 11.733 0 1.282-.207 2.544-.615 3.75a.442.442 0 1 1-.837-.283A10.8 10.8 0 0 0 24.849 14C24.849 8.018 19.982 3.15 14 3.15S3.151 8.018 3.151 14 8.018 24.849 14 24.849c4.12 0 7.951-2.4 9.76-6.115a.442.442 0 1 1 .795.387 11.79 11.79 0 0 1-4.253 4.772A11.68 11.68 0 0 1 14 25.733Z"
+            />
+            <Path
+                fill="url(#f)"
+                d="M14.088 17.798a3.756 3.756 0 0 1-3.752-3.753 3.756 3.756 0 0 1 4.067-3.738.442.442 0 0 1 .252.776 2.292 2.292 0 0 0 2.305 3.884.442.442 0 0 1 .561.592 3.756 3.756 0 0 1-3.433 2.239Zm-.71-6.532a2.873 2.873 0 0 0-2.158 2.78 2.871 2.871 0 0 0 2.868 2.867A2.87 2.87 0 0 0 16.187 16a3.183 3.183 0 0 1-3.216-3.177c0-.552.143-1.086.408-1.556Z"
+            />
+            <Path
+                fill="url(#g)"
+                d="M8.15 14.488H5.43a.442.442 0 0 1 0-.885h2.72a.442.442 0 1 1 0 .885Z"
+            />
+            <Path
+                fill="url(#h)"
+                d="M22.57 14.488h-2.72a.442.442 0 0 1 0-.885h2.72a.442.442 0 1 1 0 .885Z"
+            />
+            <Path
+                fill="url(#i)"
+                d="M7.94 20.547a.44.44 0 0 1-.312-.754l1.923-1.924a.442.442 0 1 1 .626.625l-1.924 1.924a.44.44 0 0 1-.313.13Z"
+            />
+            <Path
+                fill="url(#j)"
+                d="M18.136 10.351a.44.44 0 0 1-.312-.754l1.923-1.924a.442.442 0 0 1 .626.625l-1.924 1.924a.441.441 0 0 1-.313.13Z"
+            />
+            <Path
+                fill="url(#k)"
+                d="M14 23.058a.442.442 0 0 1-.442-.443v-2.72a.442.442 0 0 1 .884 0v2.72a.442.442 0 0 1-.442.443Z"
+            />
+            <Path
+                fill="url(#l)"
+                d="M14 8.638a.442.442 0 0 1-.442-.442v-2.72a.442.442 0 1 1 .884 0v2.72a.442.442 0 0 1-.442.442Z"
+            />
+            <Path
+                fill="url(#m)"
+                d="M20.06 20.547a.44.44 0 0 1-.313-.129l-1.923-1.924a.442.442 0 1 1 .625-.625l1.924 1.924a.442.442 0 0 1-.313.755Z"
+            />
+            <Path
+                fill="url(#n)"
+                d="M9.864 10.351a.44.44 0 0 1-.313-.13L7.627 8.299a.442.442 0 1 1 .626-.625l1.923 1.924a.442.442 0 0 1-.312.754Z"
+            />
+        </G>
+        <Defs>
+            <LinearGradient
+                id="b"
+                x1={11.622}
+                x2={15.568}
+                y1={12.847}
+                y2={15.985}
+                gradientUnits="userSpaceOnUse"
+            >
+                <Stop stopColor="#FFE98D" />
+                <Stop offset={0.1} stopColor="#FED694" />
+                <Stop offset={0.91} stopColor="#FC3DD3" />
+            </LinearGradient>
+            <LinearGradient
+                id="c"
+                x1={11.522}
+                x2={15.259}
+                y1={12.973}
+                y2={15.667}
+                gradientUnits="userSpaceOnUse"
+            >
+                <Stop stopColor="#FFE98D" />
+                <Stop offset={0.1} stopColor="#FED694" />
+                <Stop offset={0.91} stopColor="#FC3DD3" />
+            </LinearGradient>
+            <LinearGradient
+                id="d"
+                x1={4.053}
+                x2={20.36}
+                y1={9.093}
+                y2={22.635}
+                gradientUnits="userSpaceOnUse"
+            >
+                <Stop stopColor="#FFE98D" />
+                <Stop offset={0.1} stopColor="#FED694" />
+                <Stop offset={0.91} stopColor="#FC3DD3" />
+            </LinearGradient>
+            <LinearGradient
+                id="e"
+                x1={3.729}
+                x2={20.567}
+                y1={8.933}
+                y2={22.916}
+                gradientUnits="userSpaceOnUse"
+            >
+                <Stop stopColor="#FFE98D" />
+                <Stop offset={0.1} stopColor="#FED694" />
+                <Stop offset={0.91} stopColor="#FC3DD3" />
+            </LinearGradient>
+            <LinearGradient
+                id="f"
+                x1={11.298}
+                x2={15.776}
+                y1={12.688}
+                y2={16.267}
+                gradientUnits="userSpaceOnUse"
+            >
+                <Stop stopColor="#FFE98D" />
+                <Stop offset={0.1} stopColor="#FED694" />
+                <Stop offset={0.91} stopColor="#FC3DD3" />
+            </LinearGradient>
+            <LinearGradient
+                id="g"
+                x1={5.468}
+                x2={5.762}
+                y1={13.885}
+                y2={14.88}
+                gradientUnits="userSpaceOnUse"
+            >
+                <Stop stopColor="#FFE98D" />
+                <Stop offset={0.1} stopColor="#FED694" />
+                <Stop offset={0.91} stopColor="#FC3DD3" />
+            </LinearGradient>
+            <LinearGradient
+                id="h"
+                x1={19.887}
+                x2={20.181}
+                y1={13.885}
+                y2={14.88}
+                gradientUnits="userSpaceOnUse"
+            >
+                <Stop stopColor="#FFE98D" />
+                <Stop offset={0.1} stopColor="#FED694" />
+                <Stop offset={0.91} stopColor="#FC3DD3" />
+            </LinearGradient>
+            <LinearGradient
+                id="i"
+                x1={7.872}
+                x2={9.561}
+                y1={18.635}
+                y2={20.038}
+                gradientUnits="userSpaceOnUse"
+            >
+                <Stop stopColor="#FFE98D" />
+                <Stop offset={0.1} stopColor="#FED694" />
+                <Stop offset={0.91} stopColor="#FC3DD3" />
+            </LinearGradient>
+            <LinearGradient
+                id="j"
+                x1={18.068}
+                x2={19.757}
+                y1={8.439}
+                y2={9.842}
+                gradientUnits="userSpaceOnUse"
+            >
+                <Stop stopColor="#FFE98D" />
+                <Stop offset={0.1} stopColor="#FED694" />
+                <Stop offset={0.91} stopColor="#FC3DD3" />
+            </LinearGradient>
+            <LinearGradient
+                id="k"
+                x1={13.676}
+                x2={14.538}
+                y1={20.603}
+                y2={20.779}
+                gradientUnits="userSpaceOnUse"
+            >
+                <Stop stopColor="#FFE98D" />
+                <Stop offset={0.1} stopColor="#FED694" />
+                <Stop offset={0.91} stopColor="#FC3DD3" />
+            </LinearGradient>
+            <LinearGradient
+                id="l"
+                x1={13.676}
+                x2={14.538}
+                y1={6.183}
+                y2={6.359}
+                gradientUnits="userSpaceOnUse"
+            >
+                <Stop stopColor="#FFE98D" />
+                <Stop offset={0.1} stopColor="#FED694" />
+                <Stop offset={0.91} stopColor="#FC3DD3" />
+            </LinearGradient>
+            <LinearGradient
+                id="m"
+                x1={18.068}
+                x2={19.757}
+                y1={18.635}
+                y2={20.038}
+                gradientUnits="userSpaceOnUse"
+            >
+                <Stop stopColor="#FFE98D" />
+                <Stop offset={0.1} stopColor="#FED694" />
+                <Stop offset={0.91} stopColor="#FC3DD3" />
+            </LinearGradient>
+            <LinearGradient
+                id="n"
+                x1={7.872}
+                x2={9.56}
+                y1={8.439}
+                y2={9.842}
+                gradientUnits="userSpaceOnUse"
+            >
+                <Stop stopColor="#FFE98D" />
+                <Stop offset={0.1} stopColor="#FED694" />
+                <Stop offset={0.91} stopColor="#FC3DD3" />
+            </LinearGradient>
+            <ClipPath id="a">
+                <Path fill="#fff" d="M0 0h28v28H0z" />
+            </ClipPath>
+        </Defs>
+    </Svg>
+)
 
+const AstrologyOutline = (props: any) => (
+    <Svg
+        xmlns="http://www.w3.org/2000/svg"
+        width={28}
+        height={28}
+        fill="none"
+        {...props}
+    >
+        <G clipPath="url(#a)">
+            <Path
+                fill="#fff"
+                d="M16.15 15.557a2.736 2.736 0 0 1-1.784-4.81 3.31 3.31 0 1 0 2.75 4.633c-.3.114-.626.177-.967.177Z"
+            />
+            <Path
+                fill="#fff"
+                d="M15.282 16.627A3.31 3.31 0 0 1 13 10.919a3.311 3.311 0 0 0 1.087 6.437c.884 0 1.686-.347 2.28-.912-.34.118-.706.183-1.086.183Z"
+                opacity={0.2}
+            />
+            <Path
+                fill="#fff"
+                d="M14 27.558C6.524 27.558.442 21.476.442 14S6.524.442 14 .442 27.558 6.524 27.558 14 21.476 27.558 14 27.558Zm10.7-9.949c.383-1.134.59-2.348.59-3.609 0-6.226-5.064-11.29-11.29-11.29C7.774 2.71 2.71 7.773 2.71 14c0 6.226 5.064 11.29 11.29 11.29 4.46 0 8.325-2.599 10.158-6.362"
+            />
+            <Path
+                fill="#fff"
+                d="M14 28C6.28 28 0 21.72 0 14S6.28 0 14 0s14 6.28 14 14-6.28 14-14 14ZM14 .884C6.768.884.884 6.768.884 14c0 7.232 5.884 13.116 13.116 13.116 7.232 0 13.116-5.884 13.116-13.116C27.116 6.768 21.232.884 14 .884Zm0 24.849C7.53 25.733 2.267 20.469 2.267 14 2.267 7.53 7.531 2.267 14 2.267c6.47 0 11.733 5.263 11.733 11.733 0 1.282-.207 2.544-.615 3.75a.442.442 0 1 1-.837-.283A10.8 10.8 0 0 0 24.849 14C24.849 8.018 19.982 3.15 14 3.15S3.151 8.018 3.151 14 8.018 24.849 14 24.849c4.12 0 7.951-2.4 9.76-6.115a.442.442 0 1 1 .795.387 11.79 11.79 0 0 1-4.253 4.772A11.68 11.68 0 0 1 14 25.733Z"
+            />
+            <Path
+                fill="#fff"
+                d="M14.088 17.798a3.756 3.756 0 0 1-3.752-3.753 3.756 3.756 0 0 1 4.067-3.738.442.442 0 0 1 .252.776 2.292 2.292 0 0 0 2.305 3.884.442.442 0 0 1 .561.592 3.756 3.756 0 0 1-3.433 2.239Zm-.71-6.532a2.873 2.873 0 0 0-2.158 2.78 2.871 2.871 0 0 0 2.868 2.867A2.87 2.87 0 0 0 16.187 16a3.183 3.183 0 0 1-3.216-3.177c0-.552.143-1.086.408-1.556ZM8.15 14.488H5.43a.442.442 0 0 1 0-.885h2.72a.442.442 0 1 1 0 .885ZM22.57 14.488h-2.72a.442.442 0 0 1 0-.885h2.72a.442.442 0 1 1 0 .885ZM7.94 20.547a.44.44 0 0 1-.313-.754l1.924-1.924a.442.442 0 1 1 .626.625l-1.924 1.924a.44.44 0 0 1-.313.13ZM18.136 10.351a.44.44 0 0 1-.312-.754l1.923-1.924a.442.442 0 0 1 .626.625l-1.924 1.924a.441.441 0 0 1-.313.13ZM14 23.058a.442.442 0 0 1-.442-.443v-2.72a.442.442 0 0 1 .884 0v2.72a.442.442 0 0 1-.442.443ZM14 8.638a.442.442 0 0 1-.442-.442v-2.72a.442.442 0 0 1 .884 0v2.72a.442.442 0 0 1-.442.442ZM20.06 20.547a.44.44 0 0 1-.313-.129l-1.923-1.924a.442.442 0 1 1 .625-.625l1.924 1.924a.442.442 0 0 1-.313.755ZM9.864 10.351a.44.44 0 0 1-.313-.13L7.627 8.299a.442.442 0 1 1 .626-.625l1.923 1.924a.442.442 0 0 1-.312.754Z"
+            />
+        </G>
+        <Defs>
+            <ClipPath id="a">
+                <Path fill="#fff" d="M0 0h28v28H0z" />
+            </ClipPath>
+        </Defs>
+    </Svg>
+)
 //---------------
 
 
@@ -1566,4 +1830,4 @@ const TarotCardBackend = (props: any) => (
 )
 
 
-export { Compatibility, CompatibilityOutline, HomeOutline, Home, TarotOutline, Tarot, UserOutline, User, Tabirle, TarotCardBackend };
+export { Compatibility, CompatibilityOutline, HomeOutline, Home, TarotOutline, Tarot, UserOutline, User, Tabirle, TarotCardBackend, Astrology, AstrologyOutline };

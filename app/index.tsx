@@ -1,61 +1,3 @@
-// import { View, Image, TouchableOpacity, Text } from "react-native";
-// import { SafeAreaView } from "react-native-safe-area-context";
-// import { StatusBar } from "expo-status-bar";
-// import Swiper from 'react-native-swiper';
-
-// export default function Onboarding({ navigation }: { navigation: any }) {
-
-
-
-
-//     return (
-//         <View className="flex-1 bg-[#A82A00] items-center relative  pb-5">
-//             <Image source={require("@/assets/images/dec-2.png")} className="object-cover absolute z-[1]" />
-//             <Image source={require("@/assets/images/dec-1.png")} className="object-cover absolute z-[2]" />
-//             <Image source={require("@/assets/images/stars.png")} className="object-center absolute z-[3]" />
-
-//             <SafeAreaView className="abolsute z-10 flex-1 w-full px-5">
-//                 <Swiper loop={false} showsPagination={true} dotColor="#ffffff60" activeDotColor="#FFFFFF">
-//                     {/* Ekran 1 */}
-//                     <View className="flex-1 items-center justify-center p-5">
-//                         <Text className="text-3xl font-bold text-white text-center mb-4">
-//                             Merhaba! Rüyalarının sırlarını keşfet.
-//                         </Text>
-//                         <Text className="text-lg text-white text-center">
-//                             Rüyalarının anlamlarını çöz, yıldızlardan rehberlik al ve tarotun bilgeliğine ulaş.
-//                         </Text>
-//                     </View>
-
-//                     {/* Ekran 2 */}
-//                     <View className="flex-1 items-center justify-center p-5">
-//                         <Text className="text-3xl font-bold text-white text-center mb-4">
-//                             Rüya Tabiri, Günlük Burç ve Tarot Bakımı
-//                         </Text>
-//                         <Text className="text-lg text-white text-center">
-//                             Rüyalarını yapay zekayla yorumla, günlük burç yorumlarını al ve tarot kartlarıyla içgörü kazan.
-//                         </Text>
-//                     </View>
-
-//                     {/* Ekran 3 - Başlat */}
-//                     <View className="flex-1 items-center justify-center p-5">
-//                         <Text className="text-3xl font-bold text-white text-center mb-4">
-//                             Haydi Başlayalım!
-//                         </Text>
-//                         <TouchableOpacity
-//                             className="bg-white py-3 px-6 rounded-full mt-6"
-//                             onPress={() => navigation.replace('Home')}
-//                         >
-//                             <Text className="text-[#A82A00] font-bold text-lg">Başla</Text>
-//                         </TouchableOpacity>
-//                     </View>
-//                 </Swiper>
-//             </SafeAreaView>
-//             <StatusBar backgroundColor="#161622" style="light" />
-//         </View>
-//     )
-// }   
-
-
 import { View, FlatList, ViewToken } from 'react-native';
 import React from 'react';
 import Animated, {
@@ -68,10 +10,20 @@ import Pagination from '@/components/Pagination';
 import CustomButton from '@/components/CustomButton';
 import RenderItem from '@/components/RenderItem';
 import { StatusBar } from 'expo-status-bar';
+import { useAccount } from '@/redux/reducers/app/hooks';
+import { Redirect } from 'expo-router';
 
 
 export default function Onboarding() {
+    const { isLoading, isLogged, isCompletedWelcome } = useAccount();
 
+    if (!isLoading && isLogged) {
+        if (isCompletedWelcome) {
+            return <Redirect href="/home" />
+        } else {
+            return <Redirect href="/welcome" />
+        }
+    };
 
     const flatListRef = useAnimatedRef<FlatList<OnboardingData>>();
     const x = useSharedValue(0);
@@ -127,3 +79,8 @@ export default function Onboarding() {
         </View>
     )
 }
+
+
+
+//* 1- Responsivelik ekle boyutlar birbirine uymuyor
+//* 2- burçların resimlerin adları değişip kodda temizlığe gidilecek

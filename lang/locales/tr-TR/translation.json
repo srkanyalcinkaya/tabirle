@@ -1,0 +1,192 @@
+{
+    "language": "Dil",
+    "astrology": "Astroloji",
+    "loading": "Yükleniyor...",
+    "home": {
+        "title": "Ana Sayfa",
+        "hello": "Merhaba",
+        "ruling_planet": "Yöneten Gezegen",
+        "lucky_number": "Şanslı Sayı",
+        "opposite_sign": "Zıt Burç",
+        "element": "Element",
+        "lucky_day": "Şanslı Gün",
+        "lucky_stone": "Şanslı taşın",
+        "more_details": "Daha Fazla Detay",
+        "settings": "Ayarlar",
+        "planet": "Gezegeni",
+        "talent": "Yetenek",
+        "what_makes_you_unique": "Eşsiz Kılan Özellikler",
+        "goals": "Hedefler",
+        "lucky_numbers": "Şanslı Numaralar",
+        "favorite_flowers": "Favori Çiçekler",
+        "health_risks": "Sağlık Riskleri",
+        "compatible_signs": "Uyumluluk Burçları"
+    },
+    "settings": {
+        "title": "Ayarlar",
+        "dark-appearance": "Koyu Görünüm",
+        "light-appearance": "Açık Görünüm",
+        "subscriptions": "Abonelikler",
+        "free_plan": "Ücretsiz Plan",
+        "change_language": "Dil Değiştir",
+        "rate_us": "Bizi Değerlendir",
+        "contact_us": "Bize Ulaşın",
+        "follow_us": "Bizi Takip Edin",
+        "logout": "Çıkış Yap",
+        "language": "Dil",
+        "dark_mode": "Koyu Mod",
+        "current_plan": "Mevcut Plan",
+        "change_language_button": "Dil Değiştir",
+        "mail_subject": "Destek Talebi",
+        "mail_body": "Yardımcı olmamızı istediğiniz konuda bir açıklama ekleyin.",
+        "contact_us_mail": "Bize mail atmak için buraya tıklayın"
+    },
+    "months": {
+        "january": "Ocak",
+        "february": "Şubat",
+        "march": "Mart",
+        "april": "Nisan",
+        "may": "Mayıs",
+        "june": "Haziran",
+        "july": "Temmuz",
+        "august": "Ağustos",
+        "september": "Eylül",
+        "october": "Ekim",
+        "november": "Kasım",
+        "december": "Aralık"
+    },
+    "days": {
+        "monday": "Pazartesi",
+        "tuesday": "Salı",
+        "wednesday": "Çarşamba",
+        "thursday": "Perşembe",
+        "friday": "Cuma",
+        "saturday": "Cumartesi",
+        "sunday": "Pazar"
+    },
+    "planets": {
+        "mercury": "Merkür",
+        "venus": "Venüs",
+        "earth": "Dünya",
+        "mars": "Mars",
+        "jupiter": "Jüpiter",
+        "saturn": "Satürn",
+        "uranus": "Uranüs",
+        "neptune": "Neptün",
+        "pluto": "Plüton"
+    },
+    "zodiac_signs": {
+        "aries": {
+            "title": "Koç",
+            "date": "Mart 21 - Nisan 19"
+        },
+        "taurus": {
+            "title": "Boğa",
+            "date": "Nisan 20 - Mayıs 20"
+        },
+        "gemini": {
+            "title": "İkizler",
+            "date": "Mayıs 21 - Haziran 20"
+        },
+        "cancer": {
+            "title": "Yengeç",
+            "date": "Haziran 21 - Temmuz 22"
+        },
+        "leo": {
+            "title": "Aslan",
+            "date": "Temmuz 23 - Ağustos 22"
+        },
+        "virgo": {
+            "title": "Başak",
+            "date": "Ağustos 23 - Eylül 22"
+        },
+        "libra": {
+            "title": "Terazi",
+            "date": "Eylül 23 - Ekim 22"
+        },
+        "scorpio": {
+            "title": "Akrep",
+            "date": "Ekim 23 - Kasım 21"
+        },
+        "sagittarius": {
+            "title": "Yay",
+            "date": "Kasım 22 - Aralık 21"
+        },
+        "capricorn": {
+            "title": "Oğlak",
+            "date": "Aralık 22 - Ocak 19"
+        },
+        "aquarius": {
+            "title": "Kova",
+            "date": "Ocak 20 - Şubat 18"
+        },
+        "pisces": {
+            "title": "Balık",
+            "date": "Şubat 19 - Mart 20"
+        }
+    },
+    "relationship_status": {
+        "in-relationship": "İlişkide",
+        "single": "Bekar",
+        "married": "Evli",
+        "engaged": "Nişanlı"
+    },
+    "compatibility": {
+        "title": "Burçlar Arası Uyum",
+        "compatible": "Uyumlu 💖",
+        "moderately_compatible": "Orta Derecede Uyumlu 💛",
+        "incompatible": "Uyumsuz 💔",
+        "check_compatibility": "Uyumu Kontrol Et",
+        "left": "Sol",
+        "right": "Sağ",
+        "select_sign": "Burç Seç",
+        "swipe_for_more": "Daha Fazla Seçmek İçin Sürükle",
+        "reset_position": "Pozisyonu Sıfırla",
+        "zodiac_sign_info": "Burç Bilgisi",
+        "compatibility_result": "Uyum Sonucu",
+        "compatibility_check": "Uyum Kontrolü",
+        "high": "Yüksek",
+        "medium": "Orta",
+        "low": "Düşük"
+    },
+    "interpretation": {
+        "title": "Rüya Yorumlama",
+        "dream_interpretations": "Rüya Yorumları",
+        "characters_remaining": "{remaining} karakter kaldı",
+        "placeholder_text": "Faydalı Olmayan Çok Satırlı Yer Tutucu"
+    },
+    "tarot": {
+        "daily_tarot": "Günlük Tarot",
+        "career": "Kariyer",
+        "love": "Aşk",
+        "overall": "Genel",
+        "open_tarot_cards": "Tarot Kartlarını Aç",
+        "get_reading": "Yorumu Al"
+    },
+    "welcome": {
+        "step1": "Adınız",
+        "step2": "Doğum Tarihiniz",
+        "step3": "Doğum Saatiniz",
+        "step4": "Cinsiyetiniz",
+        "step5": "İlişki Durumunuz",
+        "name_placeholder": "Adınızı girin",
+        "name_error": "Lütfen isminizi giriniz",
+        "dob_error": "Lütfen doğum tarihinizi seçiniz",
+        "time_error": "Lütfen doğum saatinizi seçiniz",
+        "gender_error": "Lütfen cinsiyetinizi belirtiniz",
+        "relationship_error": "Lütfen ilişki durumunu belirtiniz",
+        "step_info_1": "Kendiniz hakkında biraz bilgi verin, böylece daha kişiselleştirilmiş bir tahmin yapabiliriz.",
+        "step_info_2": "Tarih, güneş burcunuzu, numerolojiyi ve uyumunuzu belirlemek için önemlidir.",
+        "step_info_3": "Saat, evlerinizi, yükselen burcunuzu ve ayın tam konumunu belirlemek için önemlidir.",
+        "step_info_4": "Bu, erkek ve dişi enerjinizin dengesini gösterecektir.",
+        "step_info_5": "İlişki durumunuz, aşk hayatınıza dair ipuçları sunar.",
+        "done": "Tamam",
+        "back": "Geri",
+        "next": "İleri"
+    },
+    "genders": {
+        "male": "Erkek",
+        "female": "Kadın",
+        "other": "Diğer"
+    }
+}

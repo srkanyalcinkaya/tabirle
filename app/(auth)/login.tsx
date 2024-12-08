@@ -1,12 +1,19 @@
 import { StatusBar } from "expo-status-bar";
 import { useState } from "react";
-import { Image, Text, View, TextInput, Button, TouchableOpacity } from "react-native";
+import { Image, Text, View, TextInput, TouchableOpacity } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import Feather from '@expo/vector-icons/Feather';
 import { router } from "expo-router";
 import Animated, { FadeInDown, FadeInUp } from "react-native-reanimated";
-export default function Login() {
+import { useDispatch } from 'react-redux';
+import { api } from "@/api";
+import { setState } from "@/redux/reducers/app/appSlice";
+import Indicator from "@/components/Indicator";
 
+
+export default function Login() {
+    const dispatch = useDispatch();
+    const [isLoading, setIsLoading] = useState(false)
     const [form, setForm] = useState({
         email: "",
         password: ""
@@ -14,7 +21,48 @@ export default function Login() {
     const [showPassword, setShowPassword] = useState<boolean>(false)
 
     const handleLogin = () => {
-        console.log("Giriş yapılıyor:", form);
+        setIsLoading(true)
+        if (
+            form.email.trim().length == 0 || form.password.trim().length == 0
+        ) {
+            setIsLoading(false)
+            // Toast.show({
+            //     type: "errorToast",
+            //     text1: "Hata",
+            //     text2: "Eksik yerler var lütfen hepsini giriniz!",
+
+            // })
+        } else {
+            api.post("auth/login", form)
+                .then(res => {
+                    dispatch(setState({
+                        name: res.data.user.name,
+                        email: res.data.user.email,
+                        credit: res.data.user.credit,
+                        isLogged: true,
+                        user_id: res.data.user.user_id,
+                        token: res.data.user.token,
+                        date_of_birth: res.data.user.date_of_birth,
+                        birth_of_time: res.data.user.birth_of_time,
+                        gender: res.data.user.gender,
+                        relationship_status: res.data.user.relationship_status,
+                        zodiacSign: res.data.user.zodiacSign,
+                        isCompletedWelcome: res.data.user.isCompletedWelcome,
+                        zodiac_features:res.data.user.zodiac_features
+                    }));
+                    router.push("/home")
+                    setIsLoading(false)
+                }).catch(error => {
+                    console.log(error?.response?.data.message)
+                    setIsLoading(false)
+                    // Toast.show({
+                    //     type: "errorToast",
+                    //     text1: "Hata",
+                    //     text2: error?.response?.data.message,
+
+                    // })
+                })
+        }
     };
 
     return (
@@ -37,6 +85,7 @@ export default function Login() {
                         <TextInput
                             onChangeText={(value) => setForm({ ...form, ["email"]: value })}
                             value={form["email"] || ''}
+                            autoCapitalize="none"
                             placeholder="Enter your email"
                             placeholderTextColor={"#A82A00"}
                             className="h-full w-80 font-aregular text-[#A82A00] text-xl"
@@ -48,6 +97,7 @@ export default function Login() {
                         <TextInput
                             onChangeText={(value) => setForm({ ...form, ["password"]: value })}
                             value={form["password"] || ''}
+                            autoCapitalize="none"
                             placeholder="Enter your password"
                             secureTextEntry={!showPassword}
                             placeholderTextColor={"#A82A00"}
@@ -62,8 +112,13 @@ export default function Login() {
                         </TouchableOpacity>
                     </Animated.View>
                     <Animated.View entering={FadeInDown.delay(400).duration(1000).springify()}>
-                        <TouchableOpacity onPress={() => handleLogin()} className={`bg-[#FDC11C] p-4 rounded-2xl w-full mt-12`}>
-                            <Text className="text-white text-2xl font-aregular text-center">Login</Text>
+                        <TouchableOpacity disabled={isLoading || !form.email || !form.password} onPress={() => handleLogin()} className={`bg-[#FDC11C] p-4 rounded-2xl w-full mt-12`}>
+                            {
+                                isLoading ?
+                                    <Indicator size={10} color={"white"} count={5} />
+                                    :
+                                    <Text className="text-white text-2xl font-aregular text-center">Login</Text>
+                            }
                         </TouchableOpacity>
                     </Animated.View>
                     <Animated.View entering={FadeInDown.delay(600).duration(1000).springify()} className="mt-10 items-center justify-center flex-row gap-2">
@@ -77,7 +132,7 @@ export default function Login() {
 
                 </View>
             </SafeAreaView>
-            {/* <StatusBar backgroundColor="#161622" style="light" /> */}
+            <StatusBar style="light" />
         </View>
     )
 }
